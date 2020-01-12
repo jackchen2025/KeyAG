@@ -1,0 +1,75 @@
+% -*- coding:UTF-8 -*-
+% main.tex
+% 主程序文件
+\documentclass[UTF8]{ctexart}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{解析几何答案}
+\author{陈家宝}
+\date{}
+
+\bibliographystyle{plain}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{向量与坐标}
+\subsection{向量的定义、加法和数乘}
+
+\begin{enumerate}
+\item 证明：$\overrightarrow{PA_1}+\overrightarrow{PA_2}+ \dots +\overrightarrow{PA_n}=\left(\overrightarrow{OA_1}-\overrightarrow{OP_1}\right)+\left(\overrightarrow{OA_2}-\overrightarrow{OP_2}\right)+ \dots +\left(\overrightarrow{OA_n}-\overrightarrow{OP_n}\right)=\overrightarrow{OA_1}+\overrightarrow{OA_2}+ \dots +\overrightarrow{OA_n}-n\overrightarrow{OP}$,
+又$\overrightarrow{OA_1}+\overrightarrow{OA_2}+ \dots +\overrightarrow{OA_n}=\boldsymbol{0}$,
+故$\overrightarrow{PA_1}+\overrightarrow{PA_2}+ \dots +\overrightarrow{PA_n}=-n\overrightarrow{OP}=n\overrightarrow{OP}.$
+
+\item 
+\begin{enumerate}
+\item $\left(\mu - \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)-\left(\mu + \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)=\mu \boldsymbol{a}-\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}-\mu \boldsymbol{a}+\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}=-2\nu \boldsymbol{a}+2\nu \boldsymbol{b}$.
+\item 
+$\mathbf{D}=\left|\begin{array}{ccc}
+3 & 4\\
+2 & -3
+\end{array} \right|
+=-17,\mathbf{D_x}=\left|\begin{array}{ccc}\mathbf{a}&4\\ \mathbf{b}&-3\end{array}\right| =-3\mathbf{a}-4\mathbf{b},
+\mathbf{D_y}=\left|\begin{array}{ccc} 3 & \mathbf{a}\\ 3 & \mathbf{b}\end{array}\right|,\mathbf{x}=\frac{D_x}{D}=\frac{3}{17}\mathbf{a}+\frac{4}{17}\mathbf{b},\mathbf{y}=\frac{D_y}{D}=-\frac{3}{17}\mathbf{b}+\frac{2}{17}\mathbf{a}.$
+\end{enumerate}
+
+\item (1)$\mathbf{a}\perp\mathbf{b}$, (2)$\mathbf{a},\mathbf{b}$同向，(3)$\mathbf{a},\mathbf{b}$反向，且$|\mathbf{a}| \geq |\mathbf{b}|$(4)$\mathbf{a},\mathbf{b}$反向,(5)$\mathbf{a},\mathbf{b}$同向，且$|\mathbf{a}| \geq |\mathbf{b}|$.
+
+\item 证明：若$\lambda + \mu < 0, -\lambda < 0 $，由情形1，得$\left[\left(\lambda +\mu\right)+(-\lambda)\right]\mathbf{a}=(\lambda +\mu)\mathbf{a}+(-\lambda)\mathbf{a}$，即$\mu \mathbf{a}=(\lambda +\mu)\mathbf{a}-\lambda \mathbf{a}$，从而$(\lambda +\mu)\mathbf{a} = \lambda \mathbf{a}+\mu \mathbf{a}$得证.
+\end{enumerate}
+
+\subsection{向量的线性相关性}
+\begin{enumerate}
+\item (1)错，当$\mathbf{a}=\mathbf{0}$时；(2)错，当$\mathbf{a}=\mathbf{0}$时.
+\item 设$\lambda\mathbf{c}+\mu\mathbf{d}=\mathbf{0},\lambda(2\mathbf{a}-\mathbf{b})+\mu(3\mathbf{a}-2\mathbf{b})=\mathbf{0},(2\lambda+3\mu)\mathbf{a}+(-\lambda-2\mu)\mathbf{b}=\mathbf{0}$. 由于$\mathbf{a},\mathbf{b}$不共线，所以$\left\{\begin{array}{ll}2\lambda+3\mu=0,\\ \lambda+2\mu=0.\end{array}\right.$又$\left|\begin{array}{cc}2&3\\1&2\end{array}\right|=1\neq0$，所以$\lambda=\mu=0$，即$\mathbf{c},\mathbf{d}$线性无关. 
+\item 证明：$\overrightarrow{AB}//\overrightarrow{CD}$，$E$、$F$分别为梯形腰$BC$、$AD$上的中点，连接$EF$交$AC$于点$H$，则$H$为$AC$的中点，$\overrightarrow{FH}=\frac{1}{2}\overrightarrow{DC},\overrightarrow{HE}=\frac{1}{2}\overrightarrow{AB},\overrightarrow{FE}=\overrightarrow{FH}+\overrightarrow{HE}=\frac{1}{2}\left(\overrightarrow{DC}+\overrightarrow{AB}\right)$，因为$\overrightarrow{AB}//\overrightarrow{CD}$，而$\overrightarrow{AB}$与$\overrightarrow{CD}$方向一致，所以$\left|\overrightarrow{FE}\right|=\frac{1}{2}\left(\left|\overrightarrow{AB}\right|+\left|\overrightarrow{DC}\right|\right)$.
+
+\item 设$\mathbf{a}=\lambda\mathbf{b}+\mu\mathbf{c}$，则$$\mathbf{a}=-\mathbf{e_1}+3\mathbf{e_2}+2\mathbf{e_3}=2\lambda\mathbf{e_1}-6\lambda\mathbf{e_2}+2\lambda\mathbf{e_3}-3\mu\mathbf{e_1}+12\mu\mathbf{e_2}+11\mu\mathbf{e_3},$$即$$\left(-1-4\lambda+3\mu\right)\mathbf{e_1}+\left(3+6\lambda-12\mu\right)\mathbf{e_2}+\left(2-2\lambda-11\mu\right)\mathbf{e_3}=\mathbf{0},$$又$\mathbf{e_1}$、$\mathbf{e_2}$、$\mathbf{e_3}$线性相关，有$$\left\{\begin{array}{lll}-1-4\lambda+3\mu=0\\ 3+6\lambda-12\mu=0\\ 2-2\lambda-11\mu=0. \end{array}\right.$$解得$\lambda=-\frac{1}{10},\mu=\frac{1}{5}$，所以$\mathbf{a}=\frac{1}{10}\mathbf{b}+\frac{1}{5}\mathbf{c}$.
+
+\item C.
+
+\item 设$\overrightarrow{RD}=\lambda\overrightarrow{AD},\overrightarrow{RE}=\mu\overrightarrow{BE},$则$$\overrightarrow{RD}=\lambda\overrightarrow{AB}+\frac{1}{3}\mu\\ \overrightarrow{BC},\overrightarrow{RE}=\overrightarrow{RD}+\frac{2}{3}\overrightarrow{BC}+\frac{1}{3}\overrightarrow{CA}=\mu \overrightarrow{BC}+\frac{1}{3}\mu \overrightarrow{CA},$$故$$\overrightarrow{RD}=\left(\frac{2}{3}\mu-\frac{1}{3}\right)\overrightarrow{BC}+\frac{1}{3}\left(1-\mu\right)\overrightarrow{AB}=\lambda\overrightarrow{AB}+\frac{1}{3}\lambda\\\overrightarrow{BC},$$推得$$\left\{\begin{array}{ll}\frac{2}{3}\mu-\frac{1}{3}=\frac{1}{3}\lambda,\\ \frac{1}{3}\left(1-\mu\right)=\lambda\end{array}\right.$$解得$$\left\{\begin{array}{ll}\lambda=\frac{1}{7}\\ \mu=\frac{4}{7}\end{array}\right. $$所以$RD=\frac{1}{7}AD,RE=\frac{4}{7}BE$.
+
+\item 由题得$$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{PA}+\overrightarrow{OP}+\overrightarrow{PB}+\overrightarrow{OP}+\overrightarrow{PC}+\overrightarrow{OP}=\left(\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}\right)+3\overrightarrow{OP},$$又$\overrightarrow{CP}=2\overrightarrow{PG}=\overrightarrow{PA}+\overrightarrow{PB},$所以$\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}=\mathbf{0},$则$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}$得证. 
+
+\item $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=4\overrightarrow{OP}+\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}+\overrightarrow{PD}=4\overrightarrow{OP}+2\overrightarrow{PH}+2\overrightarrow{PG}=4\overrightarrow{OP}$
+
+\item "$\Rightarrow$"因为$A$、$B$、$C$三点共线，所以存在不全为$0$的实数$k$、$l$满足$k\overrightarrow{AB}+l\overrightarrow{AC}=\mathbf{0}$,即$k\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+l\left(\overrightarrow{OC}-\overrightarrow{OA}\right)=\mathbf{0},$化简得$-\left(k+l\right)\overrightarrow{OA}+k\overrightarrow{OB}+l\overrightarrow{OC}=\mathbf{0},$分别取$\lambda=-\left(k+l\right),\mu=k,\gamma=l,$得证.\\
+"$\Leftarrow$"因为$\lambda=-\left(\mu+\gamma\right)$，设$\lambda\neq0$，则$\mu$、$\gamma$不全为$0$，$-\left(\mu+\gamma\right)\overrightarrow{OA}+\mu\overrightarrow{OB}+\gamma\overrightarrow{OC}=\mathbf{0}$，化简得$\mu\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+\gamma\left(\overrightarrow{OC}-\overrightarrow{OA}\right)=\mathbf{0}$，即$\mu\overrightarrow{AB}+\gamma\overrightarrow{AC}=\mathbf{0}$，故$A$、$B$、$C$三点共线. 
+
+\item "$\Rightarrow$"因为$P_1,P_2,P_3,P_4$四点共面，所以$\overrightarrow{P_{1}P_{2}},\overrightarrow{P_{1}P_{3}},\overrightarrow{P_{1}P_{4}}$线性相关，存在不全为$0$的$m,n,p$使得$m\overrightarrow{P_{1}P_{2}}+n\overrightarrow{P_{1}P_{3}}+p\overrightarrow{P_{1}P_{4}}=\mathbf{0},$即$$m\left(\overrightarrow{OP_2}-\overrightarrow{OP_1}\right)+n\left(\overrightarrow{OP_3}-\overrightarrow{OP_1}\right)+p\left(\overrightarrow{OP_4}-\overrightarrow{OP_1}\right)=\mathbf{0},$$即$$-\left(m+n+p\right)\mathbf{n}+m\mathbf{r_2}+n\mathbf{r_3}+p\mathbf{r_4}=\mathbf{0},$$令$m+n+p=\lambda_1,\lambda_2=m,\lambda_3=n,\lambda_4=p$,得证. \\
+"$\Leftarrow$"设$\lambda_1\neq0$，则$\lambda_1=-\left(\lambda_2+\lambda_3+\lambda_4\right)$，所以$\lambda_2,\lambda_3,\lambda_4$不全为$0$,$$-\left(\lambda_2+\lambda_3+\lambda_4\right)\mathbf{r_1}+\lambda_2\mathbf{r_2}+\lambda_3\mathbf{r_3}+\lambda_4\mathbf{r_4}=\mathbf{0},$$因此$P_1,P_2,P_3,P_4$四点共面. 
+
+\item $A,B,C$三点不共线$\Leftrightarrow$$\overrightarrow{AB},\overrightarrow{AC}$不共线$\Leftrightarrow$点$P$在$\pi$上$\Leftrightarrow$$\overrightarrow{AP}=\mu\overrightarrow{AB}+\gamma\overrightarrow{AC}\left(\mu,\gamma\in \mathbb{R}\right)$$\Leftrightarrow$$\overrightarrow{OP}-\overrightarrow{OA}=\mu\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+\gamma\left(\overrightarrow{OC}-\overrightarrow{OA}\right)$$\Leftrightarrow$$\overrightarrow{OP}=\left(1-\mu-\gamma\right)\overrightarrow{OA}+\mu\overrightarrow{OB}+\gamma\overrightarrow{OC},$取$\gamma=1-\mu-\gamma$，得证. 
+
+\item (1)$\overrightarrow{AD}=\frac{2}{3}\mathbf{e_1}+\frac{1}{3}\mathbf{e_2},\overrightarrow{AE}=\frac{1}{3}\mathbf{e_1}+\frac{2}{3}\mathbf{e_2}$\\
+(2)由角平分线的性质得$\frac{\left|\overrightarrow{BT}\right|}{\left|\overrightarrow{TC}\right|}=\frac{\mathbf{e_1}}{\mathbf{e_2}}$，又$\overrightarrow{BT}$与$\overrightarrow{TC}$同向，则$\overrightarrow{BT}=\frac{\mathbf{e_1}}{\mathbf{e_2}}\overrightarrow{TC},\overrightarrow{BT}=\overrightarrow{AT}-\overrightarrow{AB},\overrightarrow{TC}=\overrightarrow{AC}-\overrightarrow{AT}$，因此$\overrightarrow{AT}-\overrightarrow{AB}=\frac{\mathbf{e_1}}{\mathbf{e_2}}\left(\overrightarrow{AC}-\overrightarrow{AT}\right)$,得$\overrightarrow{AT}=\frac{\left|e_1\right|+\left|e_2\right|}{\left|e_1\right|+\left|e_2\right|}\mathbf{e_1}$. 
+
+\end{enumerate}
+
+\subsection{标架与坐标}
+
+\bibliography{math}
+\end{document}
