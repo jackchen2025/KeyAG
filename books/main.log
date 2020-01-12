@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  12 JAN 2020 13:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  12 JAN 2020 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,16 +583,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ]
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
+able
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
+53.
+
+[2]
 Overfull \hbox (34.99988pt too wide) detected at line 55
 [] \OT1/cmr/m/n/10.53937 + [] + [] = [] + [] + [] + [] + [] + [] = [] + 3[]\OML
 /cmm/m/it/10.53937 ;
  []
 
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
-able
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-55.
-[2]
+
 Overfull \hbox (10.8705pt too wide) in paragraph at lines 67--69
 [][]\OML/cmm/m/it/10.53937 ; [] \OT1/cmr/m/n/10.53937 = [] \OMS/cmsy/m/n/10.539
 37 ^^@ []\OML/cmm/m/it/10.53937 ; [] \OT1/cmr/m/n/10.53937 = [] \OMS/cmsy/m/n/1
@@ -601,15 +603,35 @@ Overfull \hbox (10.8705pt too wide) in paragraph at lines 67--69
  []
 
 [3]
+Overfull \hbox (0.66661pt too wide) in paragraph at lines 84--88
+\TU/SimSun(0)/m/n/10.53937 欲 证 $\OML/cmm/m/it/10.53937 A[]G[] []$ \TU/SimSun(0)
+/m/n/10.53937 相 交 于 一 点，|  在 $\OML/cmm/m/it/10.53937 A[]G[]$ \TU/SimSun(0)/m/n/
+10.53937 上 取 一 点 $\OML/cmm/m/it/10.53937 P[]$ \TU/SimSun(0)/m/n/10.53937 使 得 $[
+] \OT1/cmr/m/n/10.53937 =
+ []
+
+[4]
+Overfull \hbox (121.95555pt too wide) in paragraph at lines 91--95
+\TU/SimSun(0)/m/n/10.53937 所 以 $\OML/cmm/m/it/10.53937 P[] [] ;$ \TU/SimSun(0)/
+m/n/10.53937 即 $\OML/cmm/m/it/10.53937 P[] [] ;$
+ []
+
+
+Overfull \hbox (5.59587pt too wide) in paragraph at lines 102--107
+[]\TU/SimSun(0)/m/n/10.53937 证 明：|  建 立 仿 射 坐 标 系 $[] \OML/cmm/m/it/10.53937 ;$
+ \TU/SimSun(0)/m/n/10.53937 由 $[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.5393
+7 ^^U[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^U [] ;$
+ []
+
 No file main.bbl.
-[4] (./main.aux) ) 
+[5] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16811 strings out of 494857
- 387894 string characters out of 6176224
+ 16834 strings out of 494857
+ 389313 string characters out of 6176224
  478050 words of memory out of 5000000
- 20588 multiletter control sequences out of 15000+600000
- 542933 words of font info for 95 fonts, out of 8000000 for 9000
+ 20610 multiletter control sequences out of 15000+600000
+ 542941 words of font info for 96 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  54i,16n,68p,850b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (5 pages).
