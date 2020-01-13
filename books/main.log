@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  13 JAN 2020 18:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  13 JAN 2020 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -590,7 +590,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-54.
+52.
 
 [2]
 Overfull \hbox (34.99988pt too wide) detected at line 56
@@ -694,15 +694,31 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 207.
 LaTeX Warning: Command \textcircled invalid in math mode on input line 207.
 
 [9]
+Overfull \hbox (4.53903pt too wide) in paragraph at lines 230--232
+[]\TU/SimSun(0)/m/n/10.53937 由 平 面 点 法 式 方 程，|  不 妨 设 所 求 平 面 方 程 为 $\OT1/cmr/m
+/n/10.53937 3\OML/cmm/m/it/10.53937 x \OMS/cmsy/m/n/10.53937 ^^@ \OT1/cmr/m/n/1
+0.53937 2\OML/cmm/m/it/10.53937 y \OT1/cmr/m/n/10.53937 + 5 = \OML/cmm/m/it/10.
+53937 D [] :$ 
+ []
+
+[10]
+Overfull \hbox (6.13326pt too wide) in paragraph at lines 261--267
+\TU/SimSun(0)/m/n/10.53937 已 知 直 线 上 的 一 个 点 $\OML/cmm/m/it/10.53937 Q [] ;$ \T
+U/SimSun(0)/m/n/10.53937 由 题 得 $[] \OMS/cmsy/m/n/10.53937 ^^A [] \OT1/cmr/m/n/1
+0.53937 = 0\OML/cmm/m/it/10.53937 ;$ \TU/SimSun(0)/m/n/10.53937 且 $[] \OT1/cmr/
+m/n/10.53937 =
+ []
+
+[11] [12]
 No file main.bbl.
-[10] (./main.aux) ) 
+[13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16883 strings out of 494857
- 390241 string characters out of 6176224
- 470050 words of memory out of 5000000
- 20648 multiletter control sequences out of 15000+600000
+ 16884 strings out of 494857
+ 390270 string characters out of 6176224
+ 474050 words of memory out of 5000000
+ 20649 multiletter control sequences out of 15000+600000
  543244 words of font info for 97 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  54i,16n,68p,1058b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (13 pages).

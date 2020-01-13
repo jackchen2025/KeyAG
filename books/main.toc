@@ -5,3 +5,6 @@
 \contentsline {subsection}{\numberline {1.4}数量积}{6}% 
 \contentsline {subsection}{\numberline {1.5}向量积}{7}% 
 \contentsline {subsection}{\numberline {1.6}混合积与双重向量积}{8}% 
+\contentsline {section}{\numberline {2}平面与直线}{10}% 
+\contentsline {subsection}{\numberline {2.1}平面与直线}{10}% 
+\contentsline {subsection}{\numberline {2.2}直线方程}{11}% 
