@@ -4,6 +4,7 @@
 \documentclass[UTF8]{ctexart}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{enumerate}
 
 \title{解析几何答案}
 \author{陈家宝}
@@ -24,7 +25,7 @@
 故$\overrightarrow{PA_1}+\overrightarrow{PA_2}+ \dots +\overrightarrow{PA_n}=-n\overrightarrow{OP}=n\overrightarrow{OP}.$
 
 \item 
-\begin{enumerate}
+\begin{enumerate}[(1)]
 \item $\left(\mu - \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)-\left(\mu + \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)=\mu \boldsymbol{a}-\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}-\mu \boldsymbol{a}+\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}=-2\nu \boldsymbol{a}+2\nu \boldsymbol{b}$.
 \item 
 $\mathbf{D}=\left|\begin{array}{ccc}
@@ -32,7 +33,7 @@ $\mathbf{D}=\left|\begin{array}{ccc}
 2 & -3
 \end{array} \right|
 =-17,\mathbf{D_x}=\left|\begin{array}{ccc}\mathbf{a}&4\\ \mathbf{b}&-3\end{array}\right| =-3\mathbf{a}-4\mathbf{b},
-\mathbf{D_y}=\left|\begin{array}{ccc} 3 & \mathbf{a}\\ 3 & \mathbf{b}\end{array}\right|,\mathbf{x}=\frac{D_x}{D}=\frac{3}{17}\mathbf{a}+\frac{4}{17}\mathbf{b},\mathbf{y}=\frac{D_y}{D}=-\frac{3}{17}\mathbf{b}+\frac{2}{17}\mathbf{a}.$
+\mathbf{D_y}=\left|\begin{array}{ccc} 3 & \mathbf{a}\\ 3 & \mathbf{b}\end{array}\right|,\mathbf{x}=\displaystyle\frac{D_x}{D}=\displaystyle\frac{3}{17}\mathbf{a}+\displaystyle\frac{4}{17}\mathbf{b},\mathbf{y}=\displaystyle\frac{D_y}{D}=-\displaystyle\frac{3}{17}\mathbf{b}+\displaystyle\frac{2}{17}\mathbf{a}.$
 \end{enumerate}
 
 \item (1)$\mathbf{a}\perp\mathbf{b}$, (2)$\mathbf{a},\mathbf{b}$同向，(3)$\mathbf{a},\mathbf{b}$反向，且$|\mathbf{a}| \geq |\mathbf{b}|$(4)$\mathbf{a},\mathbf{b}$反向,(5)$\mathbf{a},\mathbf{b}$同向，且$|\mathbf{a}| \geq |\mathbf{b}|$.
@@ -44,13 +45,13 @@ $\mathbf{D}=\left|\begin{array}{ccc}
 \begin{enumerate}
 \item (1)错，当$\mathbf{a}=\mathbf{0}$时；(2)错，当$\mathbf{a}=\mathbf{0}$时.
 \item 设$\lambda\mathbf{c}+\mu\mathbf{d}=\mathbf{0},\lambda(2\mathbf{a}-\mathbf{b})+\mu(3\mathbf{a}-2\mathbf{b})=\mathbf{0},(2\lambda+3\mu)\mathbf{a}+(-\lambda-2\mu)\mathbf{b}=\mathbf{0}$. 由于$\mathbf{a},\mathbf{b}$不共线，所以$\left\{\begin{array}{ll}2\lambda+3\mu=0,\\ \lambda+2\mu=0.\end{array}\right.$又$\left|\begin{array}{cc}2&3\\1&2\end{array}\right|=1\neq0$，所以$\lambda=\mu=0$，即$\mathbf{c},\mathbf{d}$线性无关. 
-\item 证明：$\overrightarrow{AB}//\overrightarrow{CD}$，$E$、$F$分别为梯形腰$BC$、$AD$上的中点，连接$EF$交$AC$于点$H$，则$H$为$AC$的中点，$\overrightarrow{FH}=\frac{1}{2}\overrightarrow{DC},\overrightarrow{HE}=\frac{1}{2}\overrightarrow{AB},\overrightarrow{FE}=\overrightarrow{FH}+\overrightarrow{HE}=\frac{1}{2}\left(\overrightarrow{DC}+\overrightarrow{AB}\right)$，因为$\overrightarrow{AB}//\overrightarrow{CD}$，而$\overrightarrow{AB}$与$\overrightarrow{CD}$方向一致，所以$\left|\overrightarrow{FE}\right|=\frac{1}{2}\left(\left|\overrightarrow{AB}\right|+\left|\overrightarrow{DC}\right|\right)$.
+\item 证明：$\overrightarrow{AB}//\overrightarrow{CD}$，$E$、$F$分别为梯形腰$BC$、$AD$上的中点，连接$EF$交$AC$于点$H$，则$H$为$AC$的中点，$\overrightarrow{FH}=\displaystyle\frac{1}{2}\overrightarrow{DC},\overrightarrow{HE}=\displaystyle\frac{1}{2}\overrightarrow{AB},\overrightarrow{FE}=\overrightarrow{FH}+\overrightarrow{HE}=\displaystyle\frac{1}{2}\left(\overrightarrow{DC}+\overrightarrow{AB}\right)$，因为$\overrightarrow{AB}//\overrightarrow{CD}$，而$\overrightarrow{AB}$与$\overrightarrow{CD}$方向一致，所以$\left|\overrightarrow{FE}\right|=\displaystyle\frac{1}{2}\left(\left|\overrightarrow{AB}\right|+\left|\overrightarrow{DC}\right|\right)$.
 
-\item 设$\mathbf{a}=\lambda\mathbf{b}+\mu\mathbf{c}$，则$$\mathbf{a}=-\mathbf{e_1}+3\mathbf{e_2}+2\mathbf{e_3}=2\lambda\mathbf{e_1}-6\lambda\mathbf{e_2}+2\lambda\mathbf{e_3}-3\mu\mathbf{e_1}+12\mu\mathbf{e_2}+11\mu\mathbf{e_3},$$即$$\left(-1-4\lambda+3\mu\right)\mathbf{e_1}+\left(3+6\lambda-12\mu\right)\mathbf{e_2}+\left(2-2\lambda-11\mu\right)\mathbf{e_3}=\mathbf{0},$$又$\mathbf{e_1}$、$\mathbf{e_2}$、$\mathbf{e_3}$线性相关，有$$\left\{\begin{array}{lll}-1-4\lambda+3\mu=0\\ 3+6\lambda-12\mu=0\\ 2-2\lambda-11\mu=0. \end{array}\right.$$解得$\lambda=-\frac{1}{10},\mu=\frac{1}{5}$，所以$\mathbf{a}=\frac{1}{10}\mathbf{b}+\frac{1}{5}\mathbf{c}$.
+\item 设$\mathbf{a}=\lambda\mathbf{b}+\mu\mathbf{c}$，则$$\mathbf{a}=-\mathbf{e_1}+3\mathbf{e_2}+2\mathbf{e_3}=2\lambda\mathbf{e_1}-6\lambda\mathbf{e_2}+2\lambda\mathbf{e_3}-3\mu\mathbf{e_1}+12\mu\mathbf{e_2}+11\mu\mathbf{e_3},$$即$$\left(-1-4\lambda+3\mu\right)\mathbf{e_1}+\left(3+6\lambda-12\mu\right)\mathbf{e_2}+\left(2-2\lambda-11\mu\right)\mathbf{e_3}=\mathbf{0},$$又$\mathbf{e_1}$、$\mathbf{e_2}$、$\mathbf{e_3}$线性相关，有$$\left\{\begin{array}{lll}-1-4\lambda+3\mu=0\\ 3+6\lambda-12\mu=0\\ 2-2\lambda-11\mu=0. \end{array}\right.$$解得$\lambda=-\displaystyle\frac{1}{10},\mu=\displaystyle\frac{1}{5}$，所以$\mathbf{a}=\displaystyle\frac{1}{10}\mathbf{b}+\displaystyle\frac{1}{5}\mathbf{c}$.
 
 \item C.
 
-\item 设$\overrightarrow{RD}=\lambda\overrightarrow{AD},\overrightarrow{RE}=\mu\overrightarrow{BE},$则$$\overrightarrow{RD}=\lambda\overrightarrow{AB}+\frac{1}{3}\mu\\ \overrightarrow{BC},\overrightarrow{RE}=\overrightarrow{RD}+\frac{2}{3}\overrightarrow{BC}+\frac{1}{3}\overrightarrow{CA}=\mu \overrightarrow{BC}+\frac{1}{3}\mu \overrightarrow{CA},$$故$$\overrightarrow{RD}=\left(\frac{2}{3}\mu-\frac{1}{3}\right)\overrightarrow{BC}+\frac{1}{3}\left(1-\mu\right)\overrightarrow{AB}=\lambda\overrightarrow{AB}+\frac{1}{3}\lambda\\\overrightarrow{BC},$$推得$$\left\{\begin{array}{ll}\frac{2}{3}\mu-\frac{1}{3}=\frac{1}{3}\lambda,\\ \frac{1}{3}\left(1-\mu\right)=\lambda\end{array}\right.$$解得$$\left\{\begin{array}{ll}\lambda=\frac{1}{7}\\ \mu=\frac{4}{7}\end{array}\right. $$所以$RD=\frac{1}{7}AD,RE=\frac{4}{7}BE$.
+\item 设$\overrightarrow{RD}=\lambda\overrightarrow{AD},\overrightarrow{RE}=\mu\overrightarrow{BE},$则$$\overrightarrow{RD}=\lambda\overrightarrow{AB}+\displaystyle\frac{1}{3}\mu\\ \overrightarrow{BC},\overrightarrow{RE}=\overrightarrow{RD}+\displaystyle\frac{2}{3}\overrightarrow{BC}+\displaystyle\frac{1}{3}\overrightarrow{CA}=\mu \overrightarrow{BC}+\displaystyle\frac{1}{3}\mu \overrightarrow{CA},$$故$$\overrightarrow{RD}=\left(\displaystyle\frac{2}{3}\mu-\displaystyle\frac{1}{3}\right)\overrightarrow{BC}+\displaystyle\frac{1}{3}\left(1-\mu\right)\overrightarrow{AB}=\lambda\overrightarrow{AB}+\displaystyle\frac{1}{3}\lambda\\\overrightarrow{BC},$$推得$$\left\{\begin{array}{ll}\displaystyle\frac{2}{3}\mu-\displaystyle\frac{1}{3}=\displaystyle\frac{1}{3}\lambda,\\ \displaystyle\frac{1}{3}\left(1-\mu\right)=\lambda\end{array}\right.$$解得$$\left\{\begin{array}{ll}\lambda=\displaystyle\frac{1}{7}\\ \mu=\displaystyle\frac{4}{7}\end{array}\right. $$所以$RD=\displaystyle\frac{1}{7}AD,RE=\displaystyle\frac{4}{7}BE$.
 
 \item 由题得$$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{PA}+\overrightarrow{OP}+\overrightarrow{PB}+\overrightarrow{OP}+\overrightarrow{PC}+\overrightarrow{OP}=\left(\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}\right)+3\overrightarrow{OP},$$又$\overrightarrow{CP}=2\overrightarrow{PG}=\overrightarrow{PA}+\overrightarrow{PB},$所以$\overrightarrow{PA}+\overrightarrow{PB}+\overrightarrow{PC}=\mathbf{0},$则$\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}$得证. 
 
@@ -64,8 +65,8 @@ $\mathbf{D}=\left|\begin{array}{ccc}
 
 \item $A,B,C$三点不共线$\Leftrightarrow$$\overrightarrow{AB},\overrightarrow{AC}$不共线$\Leftrightarrow$点$P$在$\pi$上$\Leftrightarrow$$\overrightarrow{AP}=\mu\overrightarrow{AB}+\gamma\overrightarrow{AC}\left(\mu,\gamma\in \mathbb{R}\right)$$\Leftrightarrow$$\overrightarrow{OP}-\overrightarrow{OA}=\mu\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+\gamma\left(\overrightarrow{OC}-\overrightarrow{OA}\right)$$\Leftrightarrow$$\overrightarrow{OP}=\left(1-\mu-\gamma\right)\overrightarrow{OA}+\mu\overrightarrow{OB}+\gamma\overrightarrow{OC},$取$\gamma=1-\mu-\gamma$，得证. 
 
-\item (1)$\overrightarrow{AD}=\frac{2}{3}\mathbf{e_1}+\frac{1}{3}\mathbf{e_2},\overrightarrow{AE}=\frac{1}{3}\mathbf{e_1}+\frac{2}{3}\mathbf{e_2}$\\
-(2)由角平分线的性质得$\frac{\left|\overrightarrow{BT}\right|}{\left|\overrightarrow{TC}\right|}=\frac{\mathbf{e_1}}{\mathbf{e_2}}$，又$\overrightarrow{BT}$与$\overrightarrow{TC}$同向，则$\overrightarrow{BT}=\frac{\mathbf{e_1}}{\mathbf{e_2}}\overrightarrow{TC},\overrightarrow{BT}=\overrightarrow{AT}-\overrightarrow{AB},\overrightarrow{TC}=\overrightarrow{AC}-\overrightarrow{AT}$，因此$\overrightarrow{AT}-\overrightarrow{AB}=\frac{\mathbf{e_1}}{\mathbf{e_2}}\left(\overrightarrow{AC}-\overrightarrow{AT}\right)$,得$\overrightarrow{AT}=\frac{\left|e_1\right|+\left|e_2\right|}{\left|e_1\right|+\left|e_2\right|}\mathbf{e_1}$. 
+\item (1)$\overrightarrow{AD}=\displaystyle\frac{2}{3}\mathbf{e_1}+\displaystyle\frac{1}{3}\mathbf{e_2},\overrightarrow{AE}=\displaystyle\frac{1}{3}\mathbf{e_1}+\displaystyle\frac{2}{3}\mathbf{e_2}$\\
+(2)由角平分线的性质得$\displaystyle\frac{\left|\overrightarrow{BT}\right|}{\left|\overrightarrow{TC}\right|}=\displaystyle\frac{\mathbf{e_1}}{\mathbf{e_2}}$，又$\overrightarrow{BT}$与$\overrightarrow{TC}$同向，则$\overrightarrow{BT}=\displaystyle\frac{\mathbf{e_1}}{\mathbf{e_2}}\overrightarrow{TC},\overrightarrow{BT}=\overrightarrow{AT}-\overrightarrow{AB},\overrightarrow{TC}=\overrightarrow{AC}-\overrightarrow{AT}$，因此$\overrightarrow{AT}-\overrightarrow{AB}=\displaystyle\frac{\mathbf{e_1}}{\mathbf{e_2}}\left(\overrightarrow{AC}-\overrightarrow{AT}\right)$,得$\overrightarrow{AT}=\displaystyle\frac{\left|e_1\right|+\left|e_2\right|}{\left|e_1\right|+\left|e_2\right|}\mathbf{e_1}$. 
 \end{enumerate}
 
 \subsection{标架与坐标}
@@ -73,40 +74,97 @@ $\mathbf{D}=\left|\begin{array}{ccc}
 \item (1)$\left(0,16,-1\right).$(2)$\left(-11,9,-2\right).$
 
 \item 分析：以本书第25页推论1.6.1作判别式，以本书第7页定理1.21(4)\\
-(1)$\left(\mathbf{a},\mathbf{b},\mathbf{c}\right)=\begin{array}{ccc}5&2&1\\-1&4&2\\-1&-1&5\end{array}=121\neq0,$故$\mathbf{a},\mathbf{b},\mathbf{c}$不共面，无线性组合. \\
-(2)同理$\mathbf{a},\mathbf{b},\mathbf{c}$共面，\\
+\begin{enumerate}[(1)]
+\item $\left(\mathbf{a},\mathbf{b},\mathbf{c}\right)=\left|\begin{array}{ccc}5&2&1\\-1&4&2\\-1&-1&5\end{array}\right|=121\neq0,$故$\mathbf{a},\mathbf{b},\mathbf{c}$不共面，无线性组合. \\
+\item 同理$\mathbf{a},\mathbf{b},\mathbf{c}$共面，\\
 设$\mathbf{c}=\lambda\mathbf{a}+\mu\mathbf{b},$\\
 得$\left\{\begin{array}{lll}-3=6\lambda-9\mu\\6=4\lambda+6\mu\\ 3=2\lambda-3\mu\end{array}\right.$\\
-解得$\mathbf{c}=\frac{1}{2}\mathbf{a}+\frac{4}{3}\mathbf{b}.$
-(3)同理$\mathbf{a},\mathbf{b},\mathbf{c}$共面，\\
+解得$\mathbf{c}=\displaystyle\frac{1}{2}\mathbf{a}+\displaystyle\frac{4}{3}\mathbf{b}.$
+\item 同理$\mathbf{a},\mathbf{b},\mathbf{c}$共面，
 但$\mathbf{a}$平行$\mathbf{b}$，且$\mathbf{a}\neq\mathbf{c},$故显然无法以线性组合表示$\mathbf{c}$. 
-
+\end{enumerate}
 \item 证明：设四面体$A_1A_2A_3A_4$中，$A_i$所对得面的重心为$G_i$，\\
 欲证$A_{i}G_{i}\left(i=1,2,3,4\right)$相交于一点，在$A_{i}G_{i}$上取一点$P_{i}$使得$\overrightarrow{A_{i}G_{i}}=3\overrightarrow{P_{i}G_{i}},$\\ 
-从而$\overrightarrow{OP_{i}}=\frac{\overrightarrow{OA_{i}}+3\overrightarrow{OG_{i}}}{4},$\\
+从而$\overrightarrow{OP_{i}}=\displaystyle\frac{\overrightarrow{OA_{i}}+3\overrightarrow{OG_{i}}}{4},$\\
 设$A_{i}$坐标为$\left(x_i,y_i,z_i\right)\left(i=1,2,3,4\right)$则有
-$$G_{1}\left(\frac{x_2+x_3+x_4}{3},\frac{y_2+y_3+y_4}{3},\frac{z_2+z_3+z_4}{3}\right),$$
-$$G_{2}\left(\frac{x_1+x_3+x_4}{3},\frac{y_1+y_3+y_4}{3},\frac{z_1+z_3+z_4}{3}\right),$$
-$$G_{3}\left(\frac{x_1+x_2+x_4}{3},\frac{y_1+y_2+y_4}{3},\frac{z_1+z_2+z_4}{3}\right),$$
-$$G_{4}\left(\frac{x_1+x_2+x_3}{3},\frac{y_1+y_2+y_3}{3},\frac{z_1+z_2+z_3}{3}\right),$$
-所以$P_{1}\left(\frac{x_1+3\frac{x_2+x_3+x_4}{3}}{4},\frac{y_1+3\frac{y_2+y_3+y_4}{3}}{4},\frac{z_1+3\frac{z_2+z_3+z_4}{3}}{4}\right),$
-即$P_{1}\left(\frac{x_1+x_2+x_3+x_4}{4},\frac{y_1+y_2+y_3+y_4}{4},\frac{z_1+z_2+z_3+z_4}{4}\right),$
+$$G_{1}\left(\displaystyle\frac{x_2+x_3+x_4}{3},\displaystyle\frac{y_2+y_3+y_4}{3},\displaystyle\frac{z_2+z_3+z_4}{3}\right),$$
+$$G_{2}\left(\displaystyle\frac{x_1+x_3+x_4}{3},\displaystyle\frac{y_1+y_3+y_4}{3},\displaystyle\frac{z_1+z_3+z_4}{3}\right),$$
+$$G_{3}\left(\displaystyle\frac{x_1+x_2+x_4}{3},\displaystyle\frac{y_1+y_2+y_4}{3},\displaystyle\frac{z_1+z_2+z_4}{3}\right),$$
+$$G_{4}\left(\displaystyle\frac{x_1+x_2+x_3}{3},\displaystyle\frac{y_1+y_2+y_3}{3},\displaystyle\frac{z_1+z_2+z_3}{3}\right),$$
+所以$P_{1}\left(\displaystyle\frac{x_1+3\displaystyle\frac{x_2+x_3+x_4}{3}}{4},\displaystyle\frac{y_1+3\displaystyle\frac{y_2+y_3+y_4}{3}}{4},\displaystyle\frac{z_1+3\displaystyle\frac{z_2+z_3+z_4}{3}}{4}\right),$
+即$P_{1}\left(\displaystyle\frac{x_1+x_2+x_3+x_4}{4},\displaystyle\frac{y_1+y_2+y_3+y_4}{4},\displaystyle\frac{z_1+z_2+z_3+z_4}{4}\right),$
 同理可得$P_{2},P_{3},P_{4}$坐标，可知$P_{1},P_{2},P_{3},P_{4}$为同一点，故$A_{i}G_{i}$交于同一点$P$且点$P$到任一顶点的距离等于此点到对面重心的三倍. 
 
-\item 证明：必要性：因为$\pi$上三点$p_{i}\left(x_i,y_i\right)_{i=1,2,3}$共线，故$\overrightarrow{p_1p_2}$平行于$\overrightarrow{p_1p_3}$，即$\frac{x_2-x_1}{x_3-x_1}=\frac{y_2-y_1}{y_3-y_1}$\\
+\item 证明：必要性：因为$\pi$上三点$p_{i}\left(x_i,y_i\right)_{i=1,2,3}$共线，故$\overrightarrow{p_1p_2}$平行于$\overrightarrow{p_1p_3}$，即$\displaystyle\frac{x_2-x_1}{x_3-x_1}=\displaystyle\frac{y_2-y_1}{y_3-y_1}$\\
 即$x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_3y_2-x_2y_1=\left|\begin{array}{ccc}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{array}\right|=0$.
-充分性：由$\left|\begin{array}{ccc}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{array}\right|=x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_3y_2-x_2y_1=0$整理得$$\frac{x_2-x_1}{x_3-x_1}=\frac{y_2-y_1}{y_3-y_1},$$
+充分性：由$\left|\begin{array}{ccc}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{array}\right|=x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_3y_2-x_2y_1=0$整理得$$\displaystyle\frac{x_2-x_1}{x_3-x_1}=\displaystyle\frac{y_2-y_1}{y_3-y_1},$$
 即$\overrightarrow{p_1p_2}$平行于$\overrightarrow{p_1p_3}$，所以$\pi$上三点$p_{i}\left(x_i,y_i\right)_{i=1,2,3}$共线. 
 综上，$\pi$上三点$p_{i}\left(x_i,y_i\right)_{i=1,2,3}$共线当且仅当$\left|\begin{array}{ccc}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{array}\right|=0.$
 
-\item 证明：建立仿射坐标系$\left\{\overrightarrow{A},\overrightarrow{AB},\overrightarrow{AC}\right\},$由$\overrightarrow{AP}=\lambda\overrightarrow{PB}=\lambda\left(\overrightarrow{AB}-\overrightarrow{AP}\right),$得$\overrightarrow{AP}=\frac{\lambda}{\lambda+1}\overrightarrow{AB},\overrightarrow{AP}=\left(\frac{\lambda}{\lambda+1},0\right)$;\\
-$\overrightarrow{AR}=\frac{1}{1+\nu}\overrightarrow{AC},\overrightarrow{AR}=\left(0,\frac{1}{1+\nu}\right)$;\\
-$\overrightarrow{AQ}=\frac{1}{1+\mu}\overrightarrow{AB}+\frac{\mu}{1+\mu}\overrightarrow{AC},\overrightarrow{AQ}=\left(\frac{1}{1+\mu},\frac{\mu}{1+\mu}\right)$;\\
-由$P,Q,R$共线当且仅当$\left|\begin{array}{ccc}\frac{1}{1+\mu}&0&1\\ 0&\frac{1}{1+\nu}&1\\ \frac{1}{1+\mu}&\frac{\mu}{1+\mu}&1\end{array}\right|=0$，得$\lambda\mu\nu=-1$，证毕. \\
+\item 证明：建立仿射坐标系$\left\{\overrightarrow{A},\overrightarrow{AB},\overrightarrow{AC}\right\},$由$\overrightarrow{AP}=\lambda\overrightarrow{PB}=\lambda\left(\overrightarrow{AB}-\overrightarrow{AP}\right),$得$\overrightarrow{AP}=\displaystyle\frac{\lambda}{\lambda+1}\overrightarrow{AB},\overrightarrow{AP}=\left(\displaystyle\frac{\lambda}{\lambda+1},0\right)$;\\
+$\overrightarrow{AR}=\displaystyle\frac{1}{1+\nu}\overrightarrow{AC},\overrightarrow{AR}=\left(0,\displaystyle\frac{1}{1+\nu}\right)$;\\
+$\overrightarrow{AQ}=\displaystyle\frac{1}{1+\mu}\overrightarrow{AB}+\displaystyle\frac{\mu}{1+\mu}\overrightarrow{AC},\overrightarrow{AQ}=\left(\displaystyle\frac{1}{1+\mu},\displaystyle\frac{\mu}{1+\mu}\right)$;\\
+由$P,Q,R$共线当且仅当$\left|\begin{array}{ccc}\displaystyle\frac{1}{1+\mu}&0&1\\ 0&\displaystyle\frac{1}{1+\nu}&1\\ \displaystyle\frac{1}{1+\mu}&\displaystyle\frac{\mu}{1+\mu}&1\end{array}\right|=0$，得$\lambda\mu\nu=-1$，证毕. \\
 （注：事实上，此即平面几何上的梅涅劳斯定理）
 \end{enumerate}
 
 \subsection{数量积}
+\begin{enumerate}
+\item $\mathbf{a}\mathbf{b}+\mathbf{b}\mathbf{c}+\mathbf{c}\mathbf{a}=\displaystyle\displaystyle\frac{1}{2}\left[\left(\mathbf{a}+\mathbf{b}+\mathbf{c}\right)-\left(\mathbf{a}+\mathbf{b}+\mathbf{c}\right)\right]=-13$
 
+\item $\left(3\mathbf{a}+2\mathbf{b}\right)\left(2\mathbf{a}-5\mathbf{b}\right)=6\left|\mathbf{a}\right|^2-0\left|\mathbf{b}\right|^2-11\mathbf{a}\mathbf{b}=14-33\sqrt{3}.$
+
+\item 由题，得$$\left(\mathbf{a}+3\mathbf{b}\right)\left(7\mathbf{a}-5\mathbf{b}\right)=\left(\mathbf{a}-4\mathbf{b}\right)\left(7\mathbf{a}-2\mathbf{b}\right)=0$$解得：$\mathbf{a}\mathbf{b}=\displaystyle\frac{1}{2}\left|\mathbf{b}\right|^2$且$\left|\mathbf{a}\right|=\left|\mathbf{b}\right|$，知$\cos\angle\left(\mathbf{a},\mathbf{b}\right)=\displaystyle\frac{\mathbf{a}\mathbf{b}}{\left|\mathbf{a}\right|\left|\mathbf{b}\right|}=\displaystyle\frac{1}{2},$故$\angle\left(\mathbf{a},\mathbf{b}\right)=\displaystyle\frac{\pi}{3}$
+
+\item \begin{enumerate}[(1)]
+\item 错误：数量的概念不等同于向量概念；
+\item 正确；
+\item 错误：向量相等的必要条件是方向相同；
+\item 错误：左边$=\left|\mathbf{a}\right|\left|\mathbf{b}\right|\cos^{2}\theta$，右边$=\left|\mathbf{a}\right|\left|\mathbf{b}\right|$；
+\item 错误：向量相等的必要条件是方向相同；
+\item 错误：左边$=\left|\mathbf{c}\right|\cdot\left|\mathbf{a}\right|\cdot\cos\angle\left(\mathbf{c},\mathbf{a}\right)\neq\left|\mathbf{c}\right|\cdot\left|\mathbf{b}\right|\cdot \cos\angle\left(\mathbf{c},\mathbf{b}\right)=$右边；
+\end{enumerate}
+\item 证明：左边$=\left(\mathbf{a}+\mathbf{b}\right)^2+\left(\mathbf{a}-\mathbf{b}\right)^2=2\mathbf{a}^2+2\mathbf{b}^2+2\mathbf{a}\mathbf{b}-2\mathbf{a}\mathbf{b}=$右边.\\
+（注：几何含义为平行四边形两斜边的平方和等于四条边长的平方和）
+
+\item \begin{enumerate}[(1)]
+\item 证明：由向量乘法交换律得$$\left(\mathbf{a}\cdot\mathbf{b}\right)\left(\mathbf{a}\cdot\mathbf{c}\right)=\left(\mathbf{a}\cdot\mathbf{c}\right)\left(\mathbf{a}\cdot\mathbf{b}\right),$$故$\mathbf{a}\left[\left(\mathbf{a}\cdot\mathbf{b}\right)\cdot\mathbf{c}-\left(\mathbf{a}\cdot\mathbf{c}\right)\cdot\mathbf{b}\right]=0,$所以两向量垂直. \\
+（注：$\left(\mathbf{a}\cdot\mathbf{c}\right)\cdot\mathbf{b}-\left(\mathbf{a}\cdot\mathbf{b}\right)\cdot\mathbf{c}=\mathbf{a}\times\mathbf{b}\times\mathbf{c}$不一定成立.）
+
+\item 证明：因为$\mathbf{v_1},\mathbf{v_2}$不共线，取该平面任意向量$\mathbf{c}=\lambda\mathbf{v_1}+\mu\mathbf{v_2},$则$$\left(\mathbf{a}-\mathbf{b}\right)\mathbf{c}=\left(\mathbf{a}-\mathbf{b}\right)\left(\lambda\mathbf{v_1}+\mu\mathbf{v_2}\right)=\lambda\left(\mathbf{a}\mathbf{v_1}-\mathbf{b}\mathbf{v_1}\right)+\mu\left(\mathbf{a}\mathbf{v_2}-\mathbf{b}\mathbf{v_2}\right)=0$$故$\left(\mathbf{a}-\mathbf{b}\right)\perp\mathbf{c},$由$\mathbf{c}$的任意性得$\mathbf{a}-\mathbf{b}=\mathbf{0},$所以$\mathbf{a}=\mathbf{b}.$
+
+\item 证明：假设$\mathbf{r}\neq\mathbf{0},$由题意，得$$\mathbf{r}\mathbf{a}-\mathbf{r}\mathbf{b}=0$$得$\mathbf{a}=\mathbf{b};$同理可得$\mathbf{a}=\mathbf{c},\mathbf{b}=\mathbf{c},$这与$\mathbf{a},\mathbf{b},\mathbf{c}$不共面矛盾，故$\mathbf{r}=\mathbf{0}.$
+\end{enumerate}
+\end{enumerate}
+
+\subsection{向量积}
+\begin{enumerate}
+\item A.
+\item A.
+\item $\mathbf{a}\times\mathbf{b}\\
+=\left(2\mathbf{m}-\mathbf{n}\right)\times\left(4\mathbf{m}-5\mathbf{n}\right)\\
+=8\left(\mathbf{m}\times\mathbf{m}\right)-10\mathbf{m}\times\mathbf{n}-4\mathbf{n}\times\mathbf{m}+5\mathbf{n}\times\mathbf{n}\\
+=-6\mathbf{m}\times\mathbf{n}$\\
+得$\left|\mathbf{a}\times\mathbf{b}\right|=6\left|\mathbf{m}\times\mathbf{n}\right|=3\sqrt{2}.$
+
+\item 因为$\mathbf{a}\times\mathbf{b}=\left(\left|\begin{array}{cc}3&-1\\-2&3\end{array}\right|,\left|\begin{array}{cc}-1&2\\3&1\end{array}\right|,\left|\begin{array}{cc}2&3\\1&-2\end{array}\right|\right)=\left(7,-7,-7\right).$
+\begin{enumerate}[(1)]
+\item 令$\mathbf{m}=\left(7,-7,-7\right),$则$$\mathbf{c}=\displaystyle\frac{\mathbf{m}}{\left|\mathbf{m}\right|}=\left(\displaystyle\frac{7}{7\sqrt{3}},\displaystyle-\frac{7}{7\sqrt{3}},-\displaystyle\frac{7}{7\sqrt{3}}\right)=\left(\displaystyle\frac{1}{\sqrt{3}},\displaystyle-\frac{1}{\sqrt{3}},-\displaystyle\frac{1}{\sqrt{3}}\right)$$
+\item $\mathbf{c}=\lambda\left(\mathbf{a}\times\mathbf{b}\right)=\left(7\lambda,-7\lambda,-7\lambda\right)$\\
+$\mathbf{c}\times\mathbf{d}=10$\\
+所以$\lambda=\displaystyle\frac{5}{28},$\\
+所以$\mathbf{c}=\left(\displaystyle\frac{5}{4},-\displaystyle\frac{5}{4},-\displaystyle\frac{5}{4}\right).$\end{enumerate}
+
+\item 易证.
+
+\item $\left(\mathbf{a}-\mathbf{d}\right)\times\left(\mathbf{b}-\mathbf{c}\right)\\
+=\mathbf{a}\times\left(\mathbf{b}-\mathbf{c}\right)-\mathbf{d}\times\left(\mathbf{b}-\mathbf{c}\right)\\
+=\mathbf{a}\times\mathbf{b}-\mathbf{a}\times\mathbf{c}-\mathbf{d}\times\mathbf{b}+\mathbf{d}\times\mathbf{c}\\
+=\mathbf{c}\times\mathbf{d}-\mathbf{b}\times\mathbf{d}-\mathbf{d}\times\mathbf{b}+\mathbf{d}\times\mathbf{c}\\
+=\mathbf{0}$\\
+所以$\mathbf{a}-\mathbf{d}$与$\mathbf{b}-\mathbf{c}$共线. 
+
+
+\end{enumerate}
 \bibliography{math}
 \end{document}
