@@ -26,7 +26,7 @@
 
 \item 
 \begin{enumerate}[(1)]
-\item $\left(\mu - \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)-\left(\mu + \nu\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)=\mu \boldsymbol{a}-\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}-\mu \boldsymbol{a}+\mu \boldsymbol{b}-\nu \boldsymbol{a}+\nu \boldsymbol{b}=-2\nu \boldsymbol{a}+2\nu \boldsymbol{b}$.
+\item $\left(\mu - \upsilon\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)-\left(\mu + \upsilon\right)\left(\boldsymbol{a}-\boldsymbol{b}\right)=\mu \boldsymbol{a}-\mu \boldsymbol{b}-\upsilon \boldsymbol{a}+\upsilon \boldsymbol{b}-\mu \boldsymbol{a}+\mu \boldsymbol{b}-\upsilon \boldsymbol{a}+\upsilon \boldsymbol{b}=-2\upsilon \boldsymbol{a}+2\upsilon \boldsymbol{b}$.
 \item 
 $\mathbf{D}=\left|\begin{array}{ccc}
 3 & 4\\
@@ -102,9 +102,9 @@ $$G_{4}\left(\displaystyle\frac{x_1+x_2+x_3}{3},\displaystyle\frac{y_1+y_2+y_3}{
 综上，$\pi$上三点$p_{i}\left(x_i,y_i\right)_{i=1,2,3}$共线当且仅当$\left|\begin{array}{ccc}x_1&y_1&1\\x_2&y_2&1\\x_3&y_3&1\end{array}\right|=0.$
 
 \item 证明：建立仿射坐标系$\left\{\overrightarrow{A},\overrightarrow{AB},\overrightarrow{AC}\right\},$由$\overrightarrow{AP}=\lambda\overrightarrow{PB}=\lambda\left(\overrightarrow{AB}-\overrightarrow{AP}\right),$得$\overrightarrow{AP}=\displaystyle\frac{\lambda}{\lambda+1}\overrightarrow{AB},\overrightarrow{AP}=\left(\displaystyle\frac{\lambda}{\lambda+1},0\right)$;\\
-$\overrightarrow{AR}=\displaystyle\frac{1}{1+\nu}\overrightarrow{AC},\overrightarrow{AR}=\left(0,\displaystyle\frac{1}{1+\nu}\right)$;\\
+$\overrightarrow{AR}=\displaystyle\frac{1}{1+\upsilon}\overrightarrow{AC},\overrightarrow{AR}=\left(0,\displaystyle\frac{1}{1+\upsilon}\right)$;\\
 $\overrightarrow{AQ}=\displaystyle\frac{1}{1+\mu}\overrightarrow{AB}+\displaystyle\frac{\mu}{1+\mu}\overrightarrow{AC},\overrightarrow{AQ}=\left(\displaystyle\frac{1}{1+\mu},\displaystyle\frac{\mu}{1+\mu}\right)$;\\
-由$P,Q,R$共线当且仅当$\left|\begin{array}{ccc}\displaystyle\frac{1}{1+\mu}&0&1\\ 0&\displaystyle\frac{1}{1+\nu}&1\\ \displaystyle\frac{1}{1+\mu}&\displaystyle\frac{\mu}{1+\mu}&1\end{array}\right|=0$，得$\lambda\mu\nu=-1$，证毕. \\
+由$P,Q,R$共线当且仅当$\left|\begin{array}{ccc}\displaystyle\frac{1}{1+\mu}&0&1\\ 0&\displaystyle\frac{1}{1+\upsilon}&1\\ \displaystyle\frac{1}{1+\mu}&\displaystyle\frac{\mu}{1+\mu}&1\end{array}\right|=0$，得$\lambda\mu\upsilon=-1$，证毕. \\
 （注：事实上，此即平面几何上的梅涅劳斯定理）
 \end{enumerate}
 
@@ -163,8 +163,64 @@ $\mathbf{c}\times\mathbf{d}=10$\\
 =\mathbf{c}\times\mathbf{d}-\mathbf{b}\times\mathbf{d}-\mathbf{d}\times\mathbf{b}+\mathbf{d}\times\mathbf{c}\\
 =\mathbf{0}$\\
 所以$\mathbf{a}-\mathbf{d}$与$\mathbf{b}-\mathbf{c}$共线. 
+\end{enumerate}
 
+\subsection{混合积与双重向量积}
+\begin{enumerate}
+\item D.\\
+解：\begin{enumerate}[(A.)]
+\item $\left|\mathbf{a}\right|\left|\mathbf{b}\right|\cos<\mathbf{a},\mathbf{b}>=\left|\mathbf{a}\right|\left|\mathbf{c}\right|\cos<\mathbf{a},\mathbf{c}>\left(\left|\mathbf{a}\right|\neq0\right).$
+\item 取$\mathbf{a}=\mathbf{0}$或$\mathbf{b}=\mathbf{0}.$
+\item 取$\mathbf{a}=\mathbf{0}.$
+\item 证明：原式左右两边同乘以向量$\mathbf{c},$得$$\mathbf{a}\times\mathbf{b}\cdot\mathbf{c}+\mathbf{b}\times\mathbf{c}\cdot\mathbf{c}+\mathbf{c}\times\mathbf{a}\cdot\mathbf{c}=0$$由定理1.6与命题1.6.1得$$\left(\mathbf{a},\mathbf{b},\mathbf{c}\right)=0$$由推论1.6.1，命题得证. \end{enumerate}
+
+\item C.\\
+解：$\mathbf{a}\left[\left(\mathbf{c}\cdot\mathbf{b}\right)\mathbf{b}-\left(\mathbf{a}\cdot\mathbf{b}\right)\mathbf{c}\right]=\left(\mathbf{a}\cdot\mathbf{b}\right)\left(\mathbf{c}\cdot\mathbf{d}\right)-\left(\mathbf{a}\cdot\mathbf{c}\right)\left(\mathbf{a}\cdot\mathbf{c}\right)=0$，又$\mathbf{a},\mathbf{b}\mathbf{c}\neq\mathbf{0}$，得证.\\
+（注：定理1.6.2不一定成立，一位内向量叉乘只有在$\mathbb{R}^3$情况下才成立.）
+
+\item 解：与例1.6.1同理，$V=\displaystyle\frac{59}{6}$.
+
+\item \begin{enumerate}[(1)]
+\item 同理，$A,B,C,D$四点共面. 
+\item $V=\displaystyle\frac{1}{6}\left|\left(\overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD}\right)\right|=\displaystyle\frac{58}{3},$\\
+$h_D=\displaystyle\frac{6V}{\left|\overrightarrow{AB}\times\overrightarrow{AC}\right|}=\displaystyle\frac{6V}{\left|\begin{array}{ccc}1&1&1\\2&-2&-3\\4&0&6\end{array}\right|}=\displaystyle\frac{29}{7}$
+\end{enumerate}
+
+\item $\displaystyle\frac{8}{25},\displaystyle\frac{5}{2}$
+
+\item \begin{enumerate}[(1)]
+\item 证明：综合运用命题1.6.1可证得.
+\item 证明：左边$=\left(\mathbf{a},\mathbf{b}+\mathbf{c},\mathbf{c}+\mathbf{a}\right)+\left(\mathbf{b},\mathbf{b}+\mathbf{c},\mathbf{c}+\mathbf{a}\right)\\
+=\left(\mathbf{a},\mathbf{b}+\mathbf{c},\mathbf{c}\right)+\left(\mathbf{a},\mathbf{b}+\mathbf{c},\mathbf{a}\right)+\cdots\\
+=\cdots\\
+=2\left(\mathbf{a},\mathbf{b},\mathbf{c}\right)=$右边. 
+\item 证明：同(2)理，展开右边即得.\\
+（注：类比$\left(\mathbf{a}-\mathbf{d}\right)\left(\mathbf{b}-\mathbf{d}\right)\left(\mathbf{c}-\mathbf{d}\right)=\mathbf{a}\mathbf{b}\mathbf{c}-\mathbf{a}\mathbf{b}\mathbf{d}-\mathbf{d}\mathbf{b}\mathbf{c}-\mathbf{a}\mathbf{d}\mathbf{c}+0\left(\mathbf{a}\mathbf{d}\mathbf{d}+\mathbf{b}\mathbf{d}\mathbf{d}+\mathbf{c}\mathbf{d}\mathbf{d}-\mathbf{d}\mathbf{d}\mathbf{d}\right)$）
+\item 证明：左边$=\left(\mathbf{a}+\mathbf{b}\right)\left(\mathbf{a}\times\mathbf{c}+\mathbf{b}\times\mathbf{c}\right)=\mathbf{a}\cdot\left(\mathbf{a}\times\mathbf{c}\right)+\mathbf{a}\cdot\left(\mathbf{b}\times\mathbf{c}\right)+\mathbf{b}\cdot\left(\mathbf{b}\times\mathbf{c}\right)+\mathbf{b}\cdot\left(\mathbf{a}\times\mathbf{c}\right)=$右边.
+\item 证明：设$\mathbf{d}=\lambda\mathbf{a}+\mu\mathbf{b}+\upsilon\mathbf{c},$\\则$\left(\mathbf{a},\mathbf{b},\mathbf{c}\times\mathbf{d}\right)=\left(\mathbf{a}\times\mathbf{b}\right)\left[\mathbf{c}\times\left(\lambda\mathbf{a}+\mu\mathbf{b}+\upsilon\mathbf{c}\right)\right]\\
+=\left(\mathbf{a}\times\mathbf{b}\right)\left[\mathbf{c}\times\left(\lambda\mathbf{a}+\mu\mathbf{b}\right)\right]\\
+=\mathbf{a}\times\mathbf{b}\left(\lambda\mathbf{c}\times\mathbf{a}+\mu\mathbf{c}\times\mathbf{b}\right)\\
+=\lambda\left(\mathbf{a}\times\mathbf{b}\right)\left(\mathbf{c}\times\mathbf{a}\right)+\mu\left(\mathbf{a}\times\mathbf{b}\right)\left(\mathbf{c}\times\mathbf{b}\right)\textcircled{1}\\$
+同理展开其余两式，得\\
+$\left(\mathbf{b},\mathbf{c},\mathbf{a}\times\mathbf{d}\right)=\mu\left(\mathbf{b}\times\mathbf{c}\right)\left(\mathbf{a}\times\mathbf{b}\right)+\upsilon\left(\mathbf{b}\times\mathbf{c}\right)\left(\mathbf{a}\times\mathbf{c}\right)\textcircled{2}\\$
+$\left(\mathbf{c},\mathbf{a},\mathbf{b}\times\mathbf{d}\right)=\lambda\left(\mathbf{c}\times\mathbf{a}\right)\left(\mathbf{b}\times\mathbf{a}\right)+\upsilon\left(\mathbf{c}\times\mathbf{a}\right)\left(\mathbf{b}\times\mathbf{c}\right)$\textcircled{3}\\
+$\textcircled{1}+\textcircled{2}+\textcircled{3}$，整理得\\
+左边$=\lambda\left[\left(\mathbf{a}\times\mathbf{b}\right)\left(\mathbf{c}\times\mathbf{a}\right)\\
++\left(\mathbf{c}\times\mathbf{a}\right)\left(\mathbf{b}\times\mathbf{a}\right)\right]\\
++\mu\left[\left(\mathbf{a}\times\mathbf{b}\right)\left(\mathbf{c}\times\mathbf{b}\right)+\left(\mathbf{b}\times\mathbf{c}\right)\left(\mathbf{a}\times\mathbf{b}\right)\right]\\
++\upsilon\left[\left(\mathbf{b}\times\mathbf{c}\right)\left(\mathbf{a}\times\mathbf{c}\right)+\left(\mathbf{c}\times\mathbf{a}\right)\left(\mathbf{b}\times\mathbf{c}\right)\right]\\
+=\lambda\cdot0+\mu\cdot0+\upsilon\cdot0\\
+=0=$右边.\\
+等式得证. 
+\end{enumerate}
+
+\item 证明：显然$\mathbf{a},\mathbf{b},\mathbf{c}\perp\mathbf{n},$则$\mathbf{a},\mathbf{b},\mathbf{c}$共面.否则：\\
+若$\mathbf{n}=\mathbf{0}$，则$\mathbf{a}=\mathbf{b}=\mathbf{c}=\mathbf{0},$仍成立；\\
+若$\mathbf{n}\neq\mathbf{0}$，$\mathbf{a},\mathbf{b},\mathbf{c}$中至少有两个向量共线，则仍成立；\\
+若$\mathbf{n}\neq\mathbf{0}$，$\mathbf{a},\mathbf{b},\mathbf{c}$胡不共线，则$\mathbf{n}$为$\mathbf{a},\mathbf{b}$所确定的平面的法向量，$\mathbf{n}\cdot\mathbf{c}\neq0$，这与题设相悖.\\
+故成立. 
 
 \end{enumerate}
+
 \bibliography{math}
 \end{document}
