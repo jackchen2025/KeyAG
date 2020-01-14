@@ -564,6 +564,141 @@ $\left\{\begin{array}{l}r=\sqrt{x^2+y^2+z^2}=\sqrt{2}\\\varphi=\arccos\displayst
 \item 柱面.同理$\left(x_0,y_0,z_0\right)$解张为直线解$$x-x_0=\frac{y-y_0}{a}=\frac{z-z_0}{b}$$.
 \item 锥面.说明略. 
 \end{enumerate}
+\end{enumerate}
+
+\subsection{二次曲面}
+\begin{enumerate}
+\item 解：设所求平面方程为$Ax+Bz=0$，联立椭球面方程得$$\left\{\begin{array}{l}Ax+Bz=0\\\displaystyle\frac{x^2}{a^2}+\displaystyle\frac{y^2}{b^2}+\displaystyle\frac{z^2}{c^2}=1\end{array}\right.$$代入得(1)$A=0$时，显然不满足要求；(2)$A\neq0$时，有$\displaystyle\frac{x^2}{a^2}+\left(\displaystyle\frac{B^2}{A^2b^2}+\displaystyle\frac{1}{c^2}\right)z^2=1$，显然$\displaystyle\frac{1}{a^2}=\displaystyle\frac{B^2}{A^2b^2}+\displaystyle\frac{1}{c^2}$，知所求平面为$$y=\pm z\sqrt{\left(\frac{1}{a^2}-\frac{1}{c^2}\right)b^2}$$
+\item 解：由题$$\left(x+4\right)^2+y^2+z^2=4\left[\left(x-2\right)^2+y^2+z^2\right]$$得$$3x^2+3y^2+3z^2-24x=0$$
+
+\item 解：设所求椭球面为$$\displaystyle\frac{x^2}{a^2}+\displaystyle\frac{y^2}{b^2}+\displaystyle\frac{z^2}{c^2}=1$$代入题设得$$\displaystyle\frac{x^2}{9}+\displaystyle\frac{y^2}{16}+\displaystyle\frac{z^2}{36}=1$$
+
+\item 解：$\displaystyle\frac{x^2}{4}=\displaystyle\frac{z^2}{9}$，即$\displaystyle\frac{x}{2}=\pm\displaystyle\frac{z}{3}$，为两条交叉直线.
+
+\item 解：$\left(1-k^2\right)x^2+y^2=1$，形状为(1)圆，$k=0$；(2)椭圆，$-1<k<1$；(3)两条平行直线，$k=\pm1$；(4)双曲线，$\left|k\right|>1$；
+
+\item 解：(1)双曲抛物面，讨论略；(2)$\left\{\begin{array}{l}z=ky\\x=k\end{array}\right.$，利用平行截割法，知为直纹面，讨论略；(3)单页双曲面，讨论略；(4)双叶双曲面，讨论略；
+
+\item 解：$A,B,C>\lambda$时为椭圆面；\\
+$A>B>\lambda>C$时为单页双曲面；\\
+$A>\lambda>B>C$时为双叶双曲面；\\
+$\lambda>A,B,C$时不存在图形. 
+
+\item 解：$\lambda>9$，不存在；$\lambda=9$，不存在；$9>\lambda>4$，双叶双曲面；$\lambda=4$，椭柱面；$4>\lambda>1$，单页双曲面；$\lambda=1$，椭柱面；$\lambda<1$，椭球面.
+
+\item 解：设其方程为$\displaystyle\frac{z^2}{a^2}+\displaystyle\frac{y^2}{b^2}=2x$，代入两点坐标解得$$\frac{3}{5}z^2+\frac{18}{5}y^2=x$$.
+
+\item 解：显然为$x=\pm2$或$y=\pm3$.
+\end{enumerate}
+
+\subsection{直纹面}
+\begin{enumerate}
+
+\item \begin{enumerate}[(1)]
+\item 设单叶双曲面方程为$$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1\left(a,b,c\in\mathbb{R^+}\right)$$方程改写为$$\left(\frac{x}{a}-\frac{z}{c}\right)\left(\frac{x}{a}+\frac{z}{c}\right)=\left(1+\frac{y}{b}\right)\left(1-\frac{y}{b}\right)$$
+得$u$族直母线$$\left\{\begin{array}{l}\displaystyle\frac{x}{a}-\displaystyle\frac{z}{c}=u\left(1+\displaystyle\frac{y}{b}\right)\\u\left(\displaystyle\frac{x}{a}+\displaystyle\frac{z}{c}\right)=1-\displaystyle\frac{y}{b}\end{array}\right.$$
+得$v$族直母线$$\left\{\begin{array}{l}\displaystyle\frac{x}{a}-\frac{z}{c}=v\left(1-\frac{y}{b}\right)\\\displaystyle v\left(\frac{x}{a}+\frac{z}{c}\right)=1+\frac{y}{b}\end{array}\right.$$
+对同族中任意两条直母线，其显然不平行，则下证其任意不相交，联立方程得$$\left\{\begin{array}{l}\displaystyle\frac{1}{a}x-\frac{1}{b}u_1y-\frac{1}{c}z-u_1=0\\\displaystyle\frac{u_1}{a}x+\frac{1}{b}y+\frac{u_1}{c}z-1=0\\\displaystyle\frac{1}{a}x-\frac{u_2}{b}y-\frac{1}{c}z-u_2=0\\\displaystyle\frac{u_2}{a}x+\frac{1}{b}y+\frac{u_2}{c}z-1=0\end{array}\right.$$
+其判别式$$\left|\begin{array}{cccc}\displaystyle\frac{1}{a}&-\displaystyle\frac{u_1}{b}&-\displaystyle\frac{1}{c}&-u_1\\\displaystyle\frac{u_1}{a}&\displaystyle\frac{1}{b}&\displaystyle\frac{u_1}{c}&-1\\\displaystyle\frac{1}{a}&-\displaystyle\frac{u_2}{b}&\displaystyle-\frac{1}{c}&-u_2\\\displaystyle\frac{u_2}{a}&\displaystyle\frac{1}{b}&\displaystyle\frac{u_2}{c}&-1\end{array}\right|=\displaystyle\frac{1}{a}\displaystyle\frac{1}{b}\displaystyle\frac{1}{c}\left|\begin{array}{cccc}1&-u_1&-1&-u_1\\u_1&1&u_1&-1\\1&-u_2&-1&-u_2\\u_2&1&u_2&-1\end{array}\right|=\displaystyle\frac{4}{abc}u_2\left(u_2-u_1\right)$$
+因为其中$u_1\neq u_2$，故其判别式非零，故两条直线异面，同理$v$族异面，(1)得证.
+\item 对异族中任意两条直母线，同理，得增广矩阵$$A=\left(\begin{array}{cccc}\displaystyle\frac{1}{a}&\displaystyle-\frac{u}{b}&\displaystyle-\frac{1}{c}&-u\\\displaystyle\frac{u}{a}&\displaystyle\frac{1}{b}&\displaystyle\frac{u}{c}&-1\\\displaystyle\frac{1}{a}&\displaystyle\frac{v}{b}&\displaystyle-\frac{1}{c}&-v\\\displaystyle\frac{v}{a}&\displaystyle-\frac{1}{b}&\displaystyle\frac{v}{c}&-1\end{array}\right)$$
+得$$det A=\displaystyle\frac{1}{abc}\left|\begin{array}{cccc}1&-u&1&u\\u&1&-u&1\\1&v&1&v\\v&-1&-v&1\end{array}\right|=0$$
+知异族两条直母线共面. \\
+$u$族直母线的方向向量$\mathbf{u}=\left(\displaystyle\frac{1}{a},\displaystyle-\frac{u}{b},\displaystyle-\frac{1}{c}\right)\times\left(\displaystyle\frac{u}{a},\displaystyle\frac{1}{b},\displaystyle\frac{u}{c}\right)=\left(\displaystyle\-\frac{u^2}{bc}+\displaystyle\frac{1}{bc},\displaystyle-\frac{2u}{ac},\displaystyle\frac{u^2}{ab}+\displaystyle\frac{1}{ab}\right)$\\
+$v$族直母线的方向向量$\mathbf{v}=\left(\displaystyle\frac{1}{a},\displaystyle\frac{v}{b},\displaystyle-\frac{1}{c}\right)\times\left(\displaystyle\frac{v}{a},\displaystyle-\frac{1}{b},\displaystyle\frac{v}{c}\right)=\left(\displaystyle\\\frac{v^2}{bc}-\displaystyle\frac{1}{bc},\displaystyle-\frac{2v}{ac},\displaystyle-\frac{v^2}{ab}-\displaystyle\frac{1}{ab}\right)$\\
+令$\mathbf{v}$平行$\mathbf{u}$，则对应数成比例，即$$\displaystyle\frac{-u^2+1}{v^2-1}=\displaystyle\frac{-u}{-v}=\displaystyle\frac{u^2+1}{-\left(v_2+1\right)}$$当且仅当$u=-v$时成立，则$u$族的任一直母线，在$v$族直母线中有且仅有一条直母线与之平行. 
+\end{enumerate}
+
+\item 证明：由本书第84页定理3.5.1证法2得\\
+得$u$族直母线：$\left\{\begin{array}{l}\displaystyle\frac{x}{a}+\displaystyle\frac{y}{b}=2u\\u\left(\displaystyle\frac{x}{a}-\displaystyle\frac{y}{b}\right)=z\end{array}\right.$
+$v$族直母线：$\left\{\begin{array}{l}\displaystyle\frac{x}{a}-\displaystyle\frac{y}{b}=2v\\v\left(\displaystyle\frac{x}{a}+\displaystyle\frac{y}{b}\right)=z\end{array}\right.$\\
+与1中同理，联立方程其增广矩阵
+$$A=\left(\begin{array}{cccc}\displaystyle\frac{1}{a}&\displaystyle\frac{1}{b}&0&-2u_1\\\displaystyle\frac{u_1}{a}&\displaystyle\frac{u_1}{b}&-1&0\\\displaystyle\frac{1}{a}&\displaystyle\frac{1}{b}&0&-2u_2\\\displaystyle\frac{u_2}{a}&\displaystyle-\frac{u_2}{b}&-1&0\end{array}\right)$$
+知$$det A=\displaystyle\frac{-2}{ab}\left|\begin{array}{cccc}1&1&0&u_1\\u_1&-u_1&-1&0\\1&1&0&u_2\\u_2&-u_2&-1&0\end{array}\right|=\displaystyle-\frac{4}{ab}\left(u_1-u_2\right)^2,\left(u_1\neq u_2\right)$$
+知同族的任意两条直母线异面($v$族同理)\\
+联立任意两条异族直母线方程，同理其增广矩阵为
+$$A=\left(\begin{array}{cccc}\displaystyle\frac{1}{a}&\displaystyle\frac{1}{b}&0&-2u\\\displaystyle\frac{u}{a}&\displaystyle-\frac{u}{b}&-1&0\\\displaystyle\frac{1}{a}&\displaystyle-\frac{1}{b}&0&-2v\\\displaystyle\frac{v}{a}&\displaystyle\frac{v}{b}&-1&0\end{array}\right)$$
+知$$det A=\displaystyle\frac{2}{ab}\left|\begin{array}{cccc}1&1&0&u\\u&-u&1&0\\1&-1&0&v\\v&v&1&0\end{array}\right|=0$$
+知异族的任意两条直母线相交.\\
+$u$族直母线的方向向量$\mathbf{u}=\left(\displaystyle\frac{1}{a},\displaystyle\frac{1}{b},0\right)\times\left(\displaystyle\frac{u}{a},\displaystyle\frac{u}{b},-1\right)=\left(\displaystyle-\frac{1}{b},\displaystyle\frac{1}{a},\displaystyle-\frac{2u}{ab}\right)$\\
+知其平行于平面$\displaystyle\frac{1}{a}x+\displaystyle\frac{1}{b}y=0$，对$v$族同理.\\
+知同族的全体直母线平行于同一平面. 
+
+\item (1)$\left\{\begin{array}{l}x+z=uy\\-y=u\left(x-z\right)\end{array}\right.$或$\left\{\begin{array}{l}x+z=-vy\\y=v\left(x-z\right)\end{array}\right.$\\
+(2)$\left\{\begin{array}{l}1=aux\\y=uz\left(x-z\right)\end{array}\right.$或$\left\{\begin{array}{l}1=vay\\x=vz\left(x-z\right)\end{array}\right.$
+
+\item 证明：\begin{enumerate}[(1)]
+\item $$\left(x+z\right)^2=\left(1+y\right)\left(1-y\right)$$
+其直母线族方程为$$\left\{\begin{array}{l}x+z=u\left(1+y\right)\\u\left(x+z\right)=1-y\end{array}\right.$$
+其方向向量$\left(1,-u,1\right)\times\left(u,1,u\right)=\left(u^2-1,0,1+u^2\right)=\left(u^2+1\right)\left(-1,0,1\right)//\left(1,-1,1\right)$\\
+方向为定向，知为柱面. 
+\item $$\left(y+z\right)^2=\left(1+x\right)\left(1-x\right)$$
+得$$\left\{\begin{array}{l}y+z=u\left(1+x\right)\\u\left(y+z\right)=1-x\end{array}\right.$$
+其方向向量$\left(u,-1,-1\right)\times\left(1,u,u\right)=\left(0,-1-u^2,1+u^2\right)//\left(0,-1,1\right)$\\
+方向为定向，知为柱面. 
+\item $$\left\{\begin{array}{l}x+y=u\left(x+2y+z\right)\\u\left(y+z\right)=1\end{array}\right.$$
+其方向向量$\left(1-u,1-2u,-u\right)\times\left(0,u,u\right)=\left(-u^2+u,u^2-u,u-u^2\right)//\left(-1,1,-1\right)$\\
+知为柱面. 
+\item $$\left\{\begin{array}{l}x+y+z=u\left(x-y-z\right)\\u\left(x+y+z\right)=x-y-z\end{array}\right.$$
+其方向向量$\left(1-u,1+u,1+u\right)\times\left(u-1,u+1,u+1\right)=\left(0,-2\left(1+u\right),2\left(1+u\right)\right)//\left(0,-1,1\right)$\\
+知为柱面. 
+\end{enumerate}
+
+\item 解：\begin{enumerate}[(1)]
+\item 其直母线方程为$\left\{\begin{array}{l}x+2y=16u\\u\left(x-2y\right)=z\end{array}\right.$或$\left\{\begin{array}{l}x+2y=vz\\v\left(x-2y\right)=16\end{array}\right.$\\
+其方向向量$\left(1,2,0\right)\times\left(u,-2u,-1\right)\cdot\left(3,2,-4\right)=0$\\
+得直线方程$\displaystyle\frac{x}{-2}=\displaystyle\frac{y-2}{1}=\displaystyle\frac{z+1}{-1}$\\
+同理解得另一条直线$\displaystyle\frac{x}{2}=\displaystyle\frac{y+4}{1}=\displaystyle\frac{z+4}{2}$\\
+\item $\displaystyle\frac{x}{-2}=\displaystyle\frac{y-16}{1}=\displaystyle\frac{z+32}{-4}$或$\displaystyle\frac{x}{2}=\displaystyle\frac{y+32}{1}=\displaystyle\frac{z+128}{8}$
+\item $\displaystyle\frac{x-2}{2}=\displaystyle\frac{y-3}{3}=\displaystyle\frac{z}{0}$或$\displaystyle\frac{x}{2}=\displaystyle\frac{y-6}{-3}=\displaystyle\frac{z+4}{4}$
+\end{enumerate}
+\item 解：\begin{enumerate}[(1)]
+\item $\displaystyle\frac{x-6}{3}=\displaystyle\frac{y-2}{0}=\displaystyle\frac{z-8}{4}$或$\displaystyle\frac{x-3}{0}=\displaystyle\frac{y-1}{1}=\displaystyle\frac{z-2}{2}$
+\item $\theta=\mathrm{arccos}\displaystyle\frac{8}{25}\sqrt{5}$
+\end{enumerate}
+
+\item 略.
+
+\item 解：Cayley三次直纹面可整理为$$\frac{x^2}{1-z}+\frac{y^2}{1+z}=1$$故其参数方程可写为$$\left\{\begin{array}{l}x=\sqrt{1-u}\cos\theta\\y=\sqrt{1+u}\sin\theta\\z=u\end{array}\right.$$
+
+\item 证明：$u$族直母线族为$$\left\{\begin{array}{l}x+3z=u\left(1+y\right)\\u\left(x-3z\right)=1-y\\z=u\end{array}\right.$$消去$z$，得直线在$\mathbb{X}\mathbb{O}\mathbb{Y}$平面上的投影为
+$$2ux+\left(1-u^2\right)y=u^2+1$$
+即$$\displaystyle\frac{2u}{1+u^2}x+\displaystyle\frac{1-u^2}{1+u^2}y=1\textcircled{1}$$
+又其腰椭圆为$$x^2+y^2=1\textcircled{2}$$
+\textcircled{1}中$$\left(\displaystyle\frac{2u}{1+u^2}\right)^2+\left(\displaystyle\frac{1-u^2}{1+u^2}\right)^2=1$$
+知\textcircled{1}是\textcircled{2}的切线，证毕.
+\end{enumerate}
+
+\section{二次曲面的分类}
+\subsection{坐标变换}
+\begin{enumerate}
+\item
+\end{enumerate}
+\subsection{二次曲面的渐进方向和中心}
+\begin{enumerate}
+
+\item
+
+\end{enumerate}
+
+\subsection{二次曲面的对称面和主径面}
+\begin{enumerate}
+
+\item
+
+\end{enumerate}
+
+\subsection{二次曲面的化简与分类}
+\begin{enumerate}
+
+\item
+
+\end{enumerate}
+
+\subsection{二次曲面的切线与切平面}
+\begin{enumerate}
+
+\item
 
 \end{enumerate}
 
