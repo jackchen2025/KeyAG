@@ -402,7 +402,7 @@ $$\left\{\begin{array}{l}\left|\begin{array}{ccc}x&y&z+1\\1&-1&0\\0&0&2\end{arra
 \item 证明：假设有两条公垂线，则它们都与异面直线相交，所以公垂线确定一个平面$A$，所以四个交点共面，又因为每条异面直线都有四个点在平面$A$上，所以异面直线都在平面$A$上，所以两直线共面，与题设矛盾，假设不成立. 故原命题成立. 
 \end{enumerate}
 
-\subsection{直线与平面间的夹角}
+\subsection{线、面间的夹角}
 略.
 
 \subsection{平面束}
@@ -449,7 +449,7 @@ $V=\left|D\right|\cdot\left|\displaystyle\frac{D}{3}\right|\cdot\left|\displayst
 当$d=0$时，$l_1//l_2$，此时转化为与定理2.3.2相同得情形，故原命题成立. 
 \end{enumerate}
 
-\section{空间曲面}
+\section{常见曲面}
 \subsection{曲面与空间曲线}
 \begin{enumerate}
 \item 解：整理得$\left(x+1\right)^2+y^2+\left(z-2\right)^2=3^2$，知圆心坐标$\left(-1,0,2\right)$半径$r=3.$
@@ -518,6 +518,53 @@ $\left\{\begin{array}{l}r=\sqrt{x^2+y^2+z^2}=\sqrt{2}\\\varphi=\arccos\displayst
 \item 圆柱面平行于$\mathbb{Z}$轴，同理可得$$\left(x+4\right)^2+\left(y-b3\right)^2=25$$
 \end{enumerate}
 \item 证明：由定理3.2.2，由柱面方程为$$\left(py-nz\right)^2+\left(px-mz\right)^2+\left(nx-my\right)^2=r^2\left(m^2+n^2+p^2\right)$$展开即所得. 
+\end{enumerate}
+
+\subsection{锥面和旋转曲面}
+\begin{enumerate}
+\item 解：\begin{enumerate}[(1)]
+\item 任取锥面上一点$\left(x,y,z\right)$，设母线$OM$与准线相交于$M_1\left(x_1,y_1,z_1\right)$，则$$\frac{x_1-0}{x-0}=\frac{y_1-0}{y-0}=\frac{z_1-0}{z-0}$$，令比值为$t$，则$$x_1=xt,y_1=yt,z_1=zt$$.将其代入准线方程并消去参数$t$，整理得所求锥面方程为$$36x^2+9y^2-4z^2=0$$.
+\item 同理，所求曲面方程为$$\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=0$$.
+\item 同理，所求曲面方程为$$F\left(\frac{hx}{z},\frac{hy}{z}\right)=0$$.
+\item 先讨论当$x=y=z$为圆锥曲面的轴时，取圆锥面上一点$\left(x,y,z\right)$，设原点为$O\left(0,0,0\right)$，轴上一点$B\left(a,a,a\right)\left(a\neq0\right)$令$\overrightarrow{OM}\cdot\overrightarrow{OB}=\left|\overrightarrow{OM}\right|\cdot\left|\overrightarrow{OB}\right|=\cos\alpha$，再令$\mathbb{Z}$轴上一点$A\left(0,0,1\right)$为圆锥面上一点，则得以下两个方程：$$\left\{\begin{array}{l}\left(x,y,z\right)\cdot\left(a,a,a\right)=\sqrt{x^2+y^2+z^2}a\sqrt{3}\cos\alpha\\\left(0,0,1\right)\cdot\left(a,a,a\right)=\sqrt{3}a\sqrt{3}\cos\alpha\end{array}\right.$$解得所求圆锥面方程为$$xy+yz+xz=0.$$
+同理得其余情况下方程为$$xy-yz+xz3=0$$或$$xy-yz-xz=0$$或$$xy+yz-xz$$.
+\item 同理，所求曲面方程为$$5x^2+13y^2+25z^2-10xy-30yz+22xz+4x-4y+4z-4=0$$
+\item 同理，所求曲面方程为$$?$$
+\item 其轴方程为$x=y=z$，且由题得$$\left(3,2,1\right)\left(1,1,1\right)=\sqrt{3^2+2^2+1^2}\sqrt{1^2+1^2+1^2}\cdot\cos\alpha$$知$\cos^2\alpha=\displaystyle\frac{6}{7}$，由本书第78页第7题讨论，得所求曲面方程为$$\left(x+y+z\right)^2=\frac{6}{7}\left(1^2+1^2+1^2\right)\left(x^2+y^2+z^2\right)$$即$$11x^2+11y^2+11z^2-14xy-14xz-14yz=0$$
+\end{enumerate}
+
+\item 解：\begin{enumerate}[(1)]
+\item 由命题3.3.1，其曲面为锥面，且是圆锥面，顶点为$\left(0,0,0\right)$
+\item 观察方程的形态，利用$x=x'+a$线性变换将其配凑成一个齐次方程，为此，令$$\left\{\begin{array}{l}y+z-x-1=0\\z+x-y-1=0\\x+y-z-1=0\end{array}\right.$$解得$x=y=z=1$，则令$x'=x-1,y'=y-1,z'=z-1$代入原方程整理得$$\left(y'+z'-x'\right)^3=\left(z'+x'-y'\right)^2\left(x'+y'-z'\right)$$由于这样的变换不改变曲面的形状，因此原方程为锥面方程，其顶点为$\left(1,1,1\right)$
+\end{enumerate}
+
+\item 证明：整理方程得$$x^2+y^2+z^2-2xy-2yz-2xz=0$$显然其为一个锥面方程且原点是其顶点.再整理得$$\left(x+y+z\right)^2=\left(\frac{\sqrt{6}}{3}\right)^2\left(1^2+1^2+1^2\right)\left(x^2+y^2+z^2\right)$$由本书第7题知，$\sqrt{x}+\sqrt{y}-\sqrt{z}=0$表示一个半顶角为$\mathrm{arccos}\displaystyle\frac{\sqrt{6}}{3}$的圆锥面. 
+
+\item \begin{enumerate}[(1)]
+\item $$\frac{\left(y-1\right)^2}{b^2}+\frac{x^2+z^2}{c^2}=1$$
+\item $$z-\tan\left(x^2+y^2\right)=0$$
+\item $$4\left(x-1\right)^2+y^2+z^2=1$$
+\item 设$x=\displaystyle\frac{1}{3}\left(t-2\right),y=\displaystyle\frac{1}{2}\left(t+1\right),z=t$得其旋转曲面方程为$$\left\{\begin{array}{l}x=\sqrt{\displaystyle\frac{\left(t-2\right)^2}{9}+\displaystyle\frac{\left(t+1\right)^2}{4}}\cos\theta\\y=\sqrt{\displaystyle\frac{\left(t-2\right)^2}{9}+\displaystyle\frac{\left(t+1\right)^2}{4}}\sin\theta\\z=t\end{array}\right.$$消去参数得$$x^2+y^2=\displaystyle\frac{\left(z-2\right)^2}{9}+\displaystyle\frac{\left(z+1\right)^2}{4}$$
+\item 两直线平行，故得圆柱面方程$$5x^2+5y^2+2z^2+2xy+4xz+4yz+4x-4y-4z-6=0$$
+\item 取曲面上一点$M\left(x',y',z'\right)$，则$x'^2+y'^2+z'^2=x^2+y^2+z^2$，有$$\left\{\begin{array}{l}\left(x-x',y-y',z-z'\right)\left(1,2,1\right)=0\\x'^2=y\\x'+z'=0\end{array}\right.$$消去$x',y',z'$得$$3x^2+3y^2-4xy-2xz-4yz-4x-8y-4z=0$$
+\end{enumerate}
+
+\item 解：\begin{enumerate}[(1)]
+\item 得$\displaystyle\frac{x^2+y^2}{9-\lambda}+\displaystyle\frac{z^2}{4-\lambda}=1$，其形状为(1)椭球面，$\lambda<4$；(2)单页双曲面，$4<\lambda<9$；(3)不存在，$\lambda>9$.
+\item 取$\left(x,y,z\right)=\left(at,b,t\right)$，得旋转参数方程为$\left(x,y,z\right)=\left(\sqrt{\left(at\right)^2+b^2}\cos\theta,\sqrt{\left(at\right)^2+b^2}\sin\theta,t\right).$即$$x^2+y^2-a^2z^2-b^2=0$$讨论略.
+\end{enumerate}
+
+\item 证明：整理得$$4x^2-9\left(y^2+z^2\right)=36$$可取母线为$\left\{\begin{array}{l}4x^2-9y^2=36\\z=0\end{array}\right.$，转轴为$\mathbb{X}$轴，故其为旋转曲面.
+
+\item 证明：取$l$上一点$\left(m,n,p\right)$，圆周面上一点$\left(x,y,z\right)$，则由于夹角为$\alpha$，得$$\frac{\left(m,n,p\right)\left(x,y,z\right)}{\sqrt{m^2+n^2+p^2}\sqrt{x^2+y^2+z^2}}\cos\alpha$$整理即得所求为$$\left(mx+ny+pz\right)^2=\cos^2\alpha\left(m^2+n^2+p^2\right)\left(x^2+y^2+z^2\right)$$
+
+\item 解：\begin{enumerate}[(1)]
+\item 柱面. 说明：对于任一满足方程的点$\left(x_0,y_0,z_0\right)$，都显然会有$\left(x_0+\displaystyle\frac{t}{k},y_0,z_0+t\right)$满足方程，消去$t$，得直线$$\left\{\begin{array}{l}kx-z-kx_0+z_0=0\\y=y_0\end{array}\right.$$知所得点解会张成一条方向固定的直线，又由于本书只讨论代数曲面，故所得点解是连续的，可构成连续的图形，知为柱面. 
+\item 锥面. 说明：对任一满足方程的点$\left(x_0,y_0,z_0\right)$，都显然会有$\left(tx_0,ty_0,tz_0\right)$满足方程，又由于是代数曲面，故为锥面. 
+\item 柱面.同理$\left(x_0,y_0,z_0\right)$解张为直线解$$x-x_0=\frac{y-y_0}{a}=\frac{z-z_0}{b}$$.
+\item 锥面.说明略. 
+\end{enumerate}
+
 \end{enumerate}
 
 \bibliography{math}

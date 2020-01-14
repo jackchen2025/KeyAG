@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  14 JAN 2020 17:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  14 JAN 2020 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,7 +895,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-53.
+57.
 
 [2]
 Overfull \hbox (34.99988pt too wide) detected at line 59
@@ -911,7 +911,7 @@ Overfull \hbox (15.16902pt too wide) in paragraph at lines 71--73
 @ [] \OT1/cmr/m/n/10.53937 = [] []$\TU/lmr/m/n/10.53937 ,
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -929,7 +929,7 @@ Overfull \hbox (0.66661pt too wide) in paragraph at lines 89--93
 ] \OT1/cmr/m/n/10.53937 =
  []
 
-
+[4]
 Overfull \hbox (13.2675pt too wide) in paragraph at lines 96--100
 \TU/SimSun(0)/m/n/10.53937 所 以 $\OML/cmm/m/it/10.53937 P[] [] ;$
  []
@@ -940,20 +940,20 @@ Overfull \hbox (0.20996pt too wide) in paragraph at lines 96--100
 n/10.53937 同 理
  []
 
-[5]
+
 Overfull \hbox (5.59587pt too wide) in paragraph at lines 107--112
 []\TU/SimSun(0)/m/n/10.53937 证 明：|  建 立 仿 射 坐 标 系 $[] \OML/cmm/m/it/10.53937 ;$
  \TU/SimSun(0)/m/n/10.53937 由 $[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.5393
 7 ^^U[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^U [] ;$
  []
 
-[6]
+[5] [6]
 Overfull \hbox (15.95876pt too wide) detected at line 137
 [] [] \OT1/cmr/m/n/10.53937 = [] [] = \OML/cmm/m/it/10.53937 ^^U [] \OT1/cmr/m/
 n/10.53937 + \OML/cmm/m/it/10.53937 ^^V [] \OT1/cmr/m/n/10.53937 = 0
  []
 
-[7] [8] [9]
+[7] [8]
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 206.
 
@@ -998,7 +998,7 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 210.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 210.
 
-[10]
+[9]
 Overfull \hbox (4.53903pt too wide) in paragraph at lines 233--235
 []\TU/SimSun(0)/m/n/10.53937 由 平 面 点 法 式 方 程，|  不 妨 设 所 求 平 面 方 程 为 $\OT1/cmr/m
 /n/10.53937 3\OML/cmm/m/it/10.53937 x \OMS/cmsy/m/n/10.53937 ^^@ \OT1/cmr/m/n/1
@@ -1006,7 +1006,7 @@ Overfull \hbox (4.53903pt too wide) in paragraph at lines 233--235
 53937 D [] :$ 
  []
 
-[11]
+[10]
 Overfull \hbox (6.13326pt too wide) in paragraph at lines 264--270
 \TU/SimSun(0)/m/n/10.53937 已 知 直 线 上 的 一 个 点 $\OML/cmm/m/it/10.53937 Q [] ;$ \T
 U/SimSun(0)/m/n/10.53937 由 题 得 $[] \OMS/cmsy/m/n/10.53937 ^^A [] \OT1/cmr/m/n/1
@@ -1014,14 +1014,14 @@ U/SimSun(0)/m/n/10.53937 由 题 得 $[] \OMS/cmsy/m/n/10.53937 ^^A [] \OT1/cmr/
 m/n/10.53937 =
  []
 
-[12] [13]
+[11] [12]
 Overfull \hbox (3.65266pt too wide) in paragraph at lines 297--300
 \TU/SimSun(0)/m/n/10.53937 记 直 线 $[] \OT1/cmr/m/n/10.53937 = [] = []$ \TU/SimSu
 n(0)/m/n/10.53937 的 方 向 向 量 为 $[]$，|  得 $[] \OT1/cmr/m/n/10.53937 = []$\TU/SimS
 un(0)/m/n/10.53937 ，| 
  []
 
-[14]
+[13]
 Overfull \hbox (0.66254pt too wide) in paragraph at lines 318--322
 []\TU/SimSun(0)/m/n/10.53937 设 所 给 直 线 的 方 向 向 量 $[] \OT1/cmr/m/n/10.53937 = []
  \OMS/cmsy/m/n/10.53937 ^^B [] \OT1/cmr/m/n/10.53937 = [] \OMS/cmsy/m/n/10.5393
@@ -1045,14 +1045,14 @@ Overfull \hbox (41.07208pt too wide) in paragraph at lines 329--330
 0.53937 D \OT1/cmr/m/n/10.53937 = [] =
  []
 
-[15] [16]
+[14] [15]
 Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text;!
- [17] [18] [19] [20]
+ [16] [17] [18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-[21]
+[20]
 Overfull \hbox (46.42088pt too wide) in paragraph at lines 459--461
 []$[]$\TU/SimSun(0)/m/n/10.53937 ，|  知 球 面 坐 标 为 $[] \OT1/cmr/m/n/10.53937 = []
 $ 
@@ -1068,12 +1068,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--461
 
  []
 
-[22]
+[21]
 Overfull \hbox (79.63835pt too wide) in paragraph at lines 469--470
 []\TU/SimSun(0)/m/n/10.53937 对 原 方 程 组 $[]$ 整 理 得 $[]$ 
  []
 
-[23]
+[22]
 Overfull \hbox (80.6065pt too wide) in paragraph at lines 492--498
 \TU/lmr/m/n/10.53937 (1)$[]$ (2)$[]$ (3)$[]$
  []
@@ -1084,33 +1084,57 @@ Overfull \hbox (31.01645pt too wide) in paragraph at lines 499--501
 0.53937 r \OT1/cmr/m/n/10.53937 = []$
  []
 
-
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
 
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 506.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 506.
+
 [24]
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 506.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 506.
-
-[25]
 Overfull \hbox (59.01021pt too wide) detected at line 515
 [] \OT1/cmr/m/n/10.53937 = [] = []
  []
 
-[26]
+[25]
+Overfull \hbox (1.36887pt too wide) in paragraph at lines 526--526
+[]\TU/SimSun(0)/m/n/10.53937 任 取 锥 面 上 一 点 $[]$，|  设 母 线 $\OML/cmm/m/it/10.5393
+7 OM$ \TU/SimSun(0)/m/n/10.53937 与 准 线 相 交 于 $\OML/cmm/m/it/10.53937 M[] []$\TU
+/SimSun(0)/m/n/10.53937 ，|
+ []
+
+[26] [27] [28]
+Overfull \hbox (121.48363pt too wide) in paragraph at lines 554--554
+[]\TU/SimSun(0)/m/n/10.53937 取 $[] \OT1/cmr/m/n/10.53937 = []$\TU/SimSun(0)/m/n
+/10.53937 ，|  得 旋 转 参 数 方 程 为 $[] \OT1/cmr/m/n/10.53937 = [] \OML/cmm/m/it/10.5
+3937 :$
+ []
+
+[29]
+Overfull \hbox (58.31213pt too wide) in paragraph at lines 562--562
+[]\TU/SimSun(0)/m/n/10.53937 柱 面\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.539
+37 说 明：|  对 于 任 一 满 足 方 程 的 点 $[]$，|  都 显 然 会 有 $[]$
+ []
+
+
+Overfull \hbox (14.08409pt too wide) in paragraph at lines 563--564
+[]\TU/SimSun(0)/m/n/10.53937 锥 面\TU/lmr/m/n/10.53937 . \TU/SimSun(0)/m/n/10.539
+37 说 明：|  对 任 一 满 足 方 程 的 点 $[]$，|  都 显 然 会 有 $[]$
+ []
+
 No file main.bbl.
-[27] (./main.aux) ) 
+[30] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 27357 strings out of 494857
- 611238 string characters out of 6176224
- 645237 words of memory out of 5000000
- 30884 multiletter control sequences out of 15000+600000
- 543244 words of font info for 97 fonts, out of 8000000 for 9000
+ 27354 strings out of 494857
+ 611147 string characters out of 6176224
+ 641237 words of memory out of 5000000
+ 30882 multiletter control sequences out of 15000+600000
+ 543236 words of font info for 96 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,16n,68p,1058b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (27 pages).
+Output written on main.pdf (30 pages).
