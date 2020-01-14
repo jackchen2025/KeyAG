@@ -5,7 +5,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{enumerate}
-
+\usepackage{TikZ}
 
 
 \title{解析几何答案}
@@ -229,7 +229,7 @@ $\textcircled{1}+\textcircled{2}+\textcircled{3}$，整理得\\
 \begin{enumerate}
 \item \begin{enumerate}[(1)]
 \item 取$\mathbb{Z}$轴上两点和题设点$\left(0,0,0\right),\left(0,0,1\right),\left(3,1,-2\right).$\\
-所求方程为$\begin{array}{ccc}x&y&z\\0&0&1\\3&1&-2\end{array}=x-3y=0$
+所求方程为$\left|\begin{array}{ccc}x&y&z\\0&0&1\\3&1&-2\end{array}\right|=x-3y=0$
 \item 由平面点法式方程，不妨设所求平面方程为$3x-2y+5=D\left(D\neq0\right).$\\
 代入点$\left(-1,-5,4\right)$得$3x-2y-7=0.$
 \item 不妨设所求平面法向量为$\mathbf{n}=\left(a,b,c\right).$\\
@@ -467,12 +467,13 @@ $\left\{\begin{array}{l}r=\sqrt{x^2+y^2+z^2}=\sqrt{2}\\\varphi=\arccos\displayst
 \item 解：\begin{enumerate}[(1)]
 \item 原点至平面$x+y+z-3=0$的距离$d=3$，则所求圆的半径$r=\sqrt{4-d^2}=1$.易得过原点且与平面$x+y+z-3=0$垂直的直线为$x=y=z$，联立平面方程得圆心坐标$\left(1,1,1\right)$
 \item 对原方程组$\left\{\begin{array}{l}x^2+y^2+z^2=5\\x^2+y^2+z^2+x+2y+3z-7=0\end{array}\right.$整理得$\left\{\begin{array}{l}x^2+y^2+z^2=5\\x+2y+3z-2=0\end{array}\right.$\\同理可得半径$r=\displaystyle\frac{4}{7}\sqrt{14}$，圆心坐标$\left(\displaystyle\frac{1}{7},\displaystyle\frac{2}{7},\displaystyle\frac{3}{7}\right)$.
+\end{enumerate}
 
-\item 证明：令$t=0$，得坐标$\left(0,0,0\right)$，\\
-令$t=1$，得坐标$\left(\displaystyle\frac{1}{3},\displaystyle\frac{1}{3},\displaystyle\frac{1}{3}\right)$，\\
-令$t=-1$，得坐标$\left(-\displaystyle\frac{1}{3},\displaystyle\frac{1}{3},-\displaystyle\frac{1}{3}\right)$，\\
-设由此三点决定的球面方程为$\pi$，其球心为$\left(x_0,y_0,z_0\right)$\\
-令$\left(\displaystyle\frac{1}{3}-x_0\right)^2+\left(\displaystyle\frac{1}{3}-y_0\right)^2+\left(\displaystyle\frac{1}{3}-z_0\right)^2=\left(-\displaystyle\frac{1}{3}-x_0\right)^2+\left(-\displaystyle\frac{1}{3}-y_0\right)^2+\left(\displaystyle\frac{1}{3}-z_0\right)^2=x_0^2+y_0^2+z_0^2$，解得$\left(x_0,y_0,z_0\right)=\left(0,\displaystyle\frac{1}{2},0\right)$，半径$r=\displaystyle\frac{1}{2}$.\\
+\item 证明：令$t=0$，得坐标$\left(0,0,0\right)$，
+令$t=1$，得坐标$\left(\displaystyle\frac{1}{3},\displaystyle\frac{1}{3},\displaystyle\frac{1}{3}\right)$，
+令$t=-1$，得坐标$\left(-\displaystyle\frac{1}{3},\displaystyle\frac{1}{3},-\displaystyle\frac{1}{3}\right)$，
+设由此三点决定的球面方程为$\pi$，其球心为$\left(x_0,y_0,z_0\right)$
+令$\left(\displaystyle\frac{1}{3}-x_0\right)^2+\left(\displaystyle\frac{1}{3}-y_0\right)^2+\left(\displaystyle\frac{1}{3}-z_0\right)^2=\left(-\displaystyle\frac{1}{3}-x_0\right)^2+\left(-\displaystyle\frac{1}{3}-y_0\right)^2+\left(\displaystyle\frac{1}{3}-z_0\right)^2=x_0^2+y_0^2+z_0^2$，\\解得$\left(x_0,y_0,z_0\right)=\left(0,\displaystyle\frac{1}{2},0\right)$，半径$r=\displaystyle\frac{1}{2}$.\\
 而$\left(\displaystyle\frac{t}{1+t^2+t^4}\right)^2+\left(\displaystyle\frac{t^2}{1+t^2+t^4}-\displaystyle\frac{1}{2}\right)^2+\left(\displaystyle\frac{t^3}{1+t^2+t^4}\right)^2=\left(\displaystyle\frac{1}{2}\right)^2$\\
 则曲线在一球面上，且球面方程为$x^2+\left(y-\displaystyle\frac{1}{2}\right)^2+z^2=\left(\displaystyle\frac{1}{2}\right)^2$
 
@@ -486,13 +487,39 @@ $\left\{\begin{array}{l}r=\sqrt{x^2+y^2+z^2}=\sqrt{2}\\\varphi=\arccos\displayst
 
 \subsection{柱面与投影曲线}
 \begin{enumerate}
-\item 
+\item (1)椭圆柱面，图形略;(2)双曲柱面，图形略;(3)抛物柱面，图形略;(4)抛物柱面，图形略;(5)平面，图形略;(6)两个互相垂直的平面，图形略;(7)两个互相垂直的平面，图形略;(8)三个互相垂直的平面，图形略;
+
+\item 解：\\
+(1)$\left\{\begin{array}{l}z^2+4y+4z=0\\x^2+z^2-4z=0\\x^2+4y=0\end{array}\right.$
+(2)$\left\{\begin{array}{l}x^2-x+y^2-1=0\\z-x-1=0\\z^2-3z+y^2+1=0\end{array}\right.$
+(3)$\left\{\begin{array}{l}x^2-2x-2z^2+6z-3=0\\y-z+1=0\\x^2-2x+y^2+2y+1=0\end{array}\right.$
+(4)$\left\{\begin{array}{l}x-z-3=0\\2y+7z-2=0\\7x+2y-18=0\end{array}\right.$
+(5)$\left\{\begin{array}{l}z^2+x-1=0\\\left(1-z^2\right)^2+z^2+y^2-1=0\\x^2+y^2-x=0\end{array}\right.$
+
+\item 解：$\left\{\begin{array}{l}x^2+y^2+z^2=1\\x^2+y^2=2z\end{array}\right.$消去$x^2+y^2$得$z^2+2z=1$，解得$z=-1\pm\sqrt{2}$代入原方程中，得$x^2+y^2=-2\pm2\sqrt{2}$，由于$x^2+y^2\geq0$，故$x^2+y^2=-2-2\sqrt{2}$舍去. \\
+知曲线方程为$\left\{\begin{array}{l}x^2+y^2=2\left(\sqrt{2}-1\right)\\z=\sqrt{2}-1\end{array}\right.$，其形状为一个半径$r=\sqrt{2\left(\sqrt{2}-1\right)}$的圆.
+
+\item 解：整理方程组得$\left\{\begin{array}{l}\left(z-2\right)^2=4\left(y+1\right)\\x^2=-4y\end{array}\right.$知其图形为一个在$\mathbb{X}O\mathbb{Y}$平面有相同形状的投影曲线的曲线，其两个投影曲线都为抛物线形.\\
+
+\item 解：\begin{enumerate}[(1)]
+\item 设$M_0\left(x_0,y_0,z_0\right)$为曲线$\Gamma$上的点，则\\
+柱面上的点有$x=x_0-t-1,y=y_0,z=z_0$，且$$\left\{\begin{array}{l}\left(x_0-1\right)^2+\left(y_0+3\right)^2+\left(z_0-2\right)^2+=25\\x_0+y_0-z_0+2=0\end{array}\right.$$消去$x_0,y_0,z_0$得$$\left\{\begin{array}{l}\left(x+t\right)^2+\left(y+3\right)^2+\left(z-2\right)^2+=25\\x+y-z+t+3=0\end{array}\right.\textcircled{1}$$消去参数$t$，得$$\left(z-y-3\right)^2+\left(y+3\right)^2+\left(z-2\right)^2=25$$
+\item 设$M_0\left(x_0,y_0,z_0\right)$为曲线$\Gamma$上的点，由直线的方向向量为$\left(0,1,1\right)$得柱面上的点有$x=x_0,=y_0+t,z=z_0+t$，且满足\textcircled{1}式，消去$x_0,y_0,z_0$得$$\left\{\begin{array}{l}\left(x-1\right)^2+\left(y-t+3\right)^2+\left(z-t-2\right)^2+=25\\x+y-z+2=0\end{array}\right.$$无视参数$t$得$$x+y-z+2=0$$.
+\item 设$M_0\left(x_0,y_0,z_0\right)$为曲线$\Gamma$上的点，则柱面上的点有$x=x_0-t,y=y_0+t,z=z_0+t$，且$$x_0^2+y_0^2-z_0+1=0\\2x_0^2+2y_0^2+z_0-4=0$$消去参数$t$，得$$\left(x+z-2\right)^2+\left(y-z+2\right)^2-1=0$$.
+\item 取准线上的三个点$A\left(0,0,0\right),B\left(2,1,1\right),C\left(2,-1,1\right)$取其母线方向$\mathbf{v}=\lambda\overrightarrow{AB}\times\overrightarrow{AC}=\left(-1,0,2\right),\left(\lambda=\displaystyle\frac{1}{2}\right)$\\
+设$M_0\left(x_0,y_0,z_0\right)$在准线上，则对所求柱面上的点有$$x=x_0-t,y=y_0,z=z_0+2t$$且$$x_0=y_0^2+z_0^2=2z_0$$消去$x_0,y_0,z_0$得$$x+t=y^2+\left(z-2t\right)^2=2\left(z-2t\right)$$消去参数$t$，得$$25y^2+\left(z+2x\right)^2-20x-10z=0$$
 \end{enumerate}
+
+\item 解：\begin{enumerate}[(1)]
+\item 点到轴的距离$d=\displaystyle\frac{\sqrt{41}}{3}$，故圆柱面半径为$r=\displaystyle\frac{\sqrt{41}}{3}$，由定理2.3.2，得圆柱面方程$$2x^2+\displaystyle\frac{5}{4}y^2+\displaystyle\frac{5}{4}z^2+xy-2xz-2yz-2x-\displaystyle\frac{1}{2}y-\displaystyle\frac{1}{2}z-\displaystyle\frac{39}{4}=0$$即$$\left(2y-2z\right)^2+\left(z+2x-1\right)^2+\left(2x+y-1\right)^2=41$$
+\item 任取对称轴上的点$\left(x,y,z\right)$到三条母线的距离相等，所以$$\left|\left(x,y,z\right)\times\left(1,1,1\right)\right|=\left|\left(x+1,y,z-1\right)\times\left(1,1,1\right)\right|=\left|\left(x,y+1,z-2\right)\times\left(1,1,1\right)\right|$$化简得对称轴方程为$x=y+2=z-1$，圆柱面上的点到对称轴的距离等于对称轴上的点$\left(0,-2,1\right)$到母线$x=y=z$的距离，故$$\left|\left(0,-2,1\right)\times\left(1,1,1\right)\right|=\left|\left(x,y+2,z-1\right)\times\left(1,1,1\right)\right|$$即$$\left(z-y-3\right)^2+\left(x-z+1\right)^2+\left(y-x+2\right)^2=14$$于是圆周面的方程为$$x^2+y^2+z^2-xy-yz-xz-x+5y-4z=0$$
+\item 圆柱面平行于$\mathbb{Z}$轴，其方程明显为$$\left(x-1\right)^2+\left(y-1\right)^2=2$$
+\item 圆柱面平行于$\mathbb{Z}$轴，故设所求圆柱面方程为$$\left(x-a\right)^2+\left(y-b\right)^2=r^2$$代入$\left(0,0\right),\left(4,2\right),\left(6,-3\right)$三个点解得$$\left(x-\displaystyle\frac{25}{8}\right)^2+\left(y+\displaystyle\frac{5}{4}\right)^2=\displaystyle\frac{34}{3}$$.
+\item 圆柱面平行于$\mathbb{Z}$轴，同理可得$$\left(x+4\right)^2+\left(y-b3\right)^2=25$$
 \end{enumerate}
-
-
-
-
+\item 证明：由定理3.2.2，由柱面方程为$$\left(py-nz\right)^2+\left(px-mz\right)^2+\left(nx-my\right)^2=r^2\left(m^2+n^2+p^2\right)$$展开即所得. 
+\end{enumerate}
 
 \bibliography{math}
+
 \end{document}
