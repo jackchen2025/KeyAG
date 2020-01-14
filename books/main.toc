@@ -3,8 +3,10 @@
 \contentsline {subsection}{\numberline {1.2}向量的线性相关性}{2}% 
 \contentsline {subsection}{\numberline {1.3}标架与坐标}{4}% 
 \contentsline {subsection}{\numberline {1.4}数量积}{6}% 
-\contentsline {subsection}{\numberline {1.5}向量积}{7}% 
+\contentsline {subsection}{\numberline {1.5}向量积}{8}% 
 \contentsline {subsection}{\numberline {1.6}混合积与双重向量积}{8}% 
 \contentsline {section}{\numberline {2}平面与直线}{10}% 
-\contentsline {subsection}{\numberline {2.1}平面与直线}{10}% 
+\contentsline {subsection}{\numberline {2.1}平面方程}{10}% 
 \contentsline {subsection}{\numberline {2.2}直线方程}{11}% 
+\contentsline {subsection}{\numberline {2.3}线、面的位置关系}{14}% 
+\contentsline {subsection}{\numberline {2.4}点、线、面之间的距离}{17}% 
