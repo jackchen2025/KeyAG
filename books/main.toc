@@ -10,3 +10,5 @@
 \contentsline {subsection}{\numberline {2.2}直线方程}{11}% 
 \contentsline {subsection}{\numberline {2.3}线、面的位置关系}{14}% 
 \contentsline {subsection}{\numberline {2.4}点、线、面之间的距离}{17}% 
+\contentsline {subsection}{\numberline {2.5}直线与平面间的夹角}{20}% 
+\contentsline {subsection}{\numberline {2.6}平面束}{20}% 

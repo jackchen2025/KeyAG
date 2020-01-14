@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  14 JAN 2020 11:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  14 JAN 2020 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,9 +742,14 @@ Overfull \hbox (41.07208pt too wide) in paragraph at lines 326--327
 
 [15] [16]
 Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text;!
- [17] [18] [19]
+ [17] [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+[21]
 No file main.bbl.
-[20] (./main.aux) ) 
+[22] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  16897 strings out of 494857
  391173 string characters out of 6176224
@@ -754,4 +759,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  54i,16n,68p,1058b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (20 pages).
+Output written on main.pdf (22 pages).
