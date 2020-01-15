@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  15 JAN 2020 17:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  15 JAN 2020 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,8 +1208,32 @@ z \OT1/cmr/m/n/10.53937 + 20\OML/cmm/m/it/10.53937 x \OT1/cmr/m/n/10.53937 + 30
 [39]
 Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text;!
  [40]
+Overfull \hbox (17.4438pt too wide) detected at line 746
+\OML/cmm/m/it/10.53937 XF[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x[]; y
+[]; z[]\OT1/cmr/m/n/10.53937 ) + \OML/cmm/m/it/10.53937 YF[]\OT1/cmr/m/n/10.539
+37 (\OML/cmm/m/it/10.53937 x[]; y[]; z[]\OT1/cmr/m/n/10.53937 ) + \OML/cmm/m/it
+/10.53937 ZF[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x[]; y[]; z[]\OT1/c
+mr/m/n/10.53937 ) = \OML/cmm/m/it/10.53937 aXx[] \OT1/cmr/m/n/10.53937 + \OML/c
+mm/m/it/10.53937 bYy[] \OT1/cmr/m/n/10.53937 + \OML/cmm/m/it/10.53937 cZz[] \OT
+1/cmr/m/n/10.53937 = 0
+ []
+
+[41]
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 754.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 754.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 754.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 754.
+
+[42]
 No file main.bbl.
-[41] (./main.aux) ) 
+[43] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  27357 strings out of 494857
  611238 string characters out of 6176224
@@ -1219,4 +1243,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  55i,16n,68p,1058b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (41 pages).
+Output written on main.pdf (43 pages).
