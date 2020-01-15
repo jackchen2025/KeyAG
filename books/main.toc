@@ -23,4 +23,4 @@
 \contentsline {subsection}{\numberline {4.2}二次曲面的渐进方向和中心}{40}% 
 \contentsline {subsection}{\numberline {4.3}二次曲面的对称面和主径面}{43}% 
 \contentsline {subsection}{\numberline {4.4}二次曲面的化简与分类}{43}% 
-\contentsline {subsection}{\numberline {4.5}二次曲面的切线与切平面}{43}% 
+\contentsline {subsection}{\numberline {4.5}二次曲面的切线与切平面}{44}% 
