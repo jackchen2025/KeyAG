@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  15 JAN 2020 06:44
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.11)  15 JAN 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,16 +1187,36 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 667.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 667.
 
-[37]
+[37] [38]
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 692.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 692.
+
+
+Overfull \hbox (52.53859pt too wide) detected at line 704
+[][] \OT1/cmr/m/n/10.53937 = 4\OML/cmm/m/it/10.53937 x[] \OT1/cmr/m/n/10.53937 
++ 9\OML/cmm/m/it/10.53937 y[] \OT1/cmr/m/n/10.53937 + 16\OML/cmm/m/it/10.53937 
+z[] \OT1/cmr/m/n/10.53937 + 12\OML/cmm/m/it/10.53937 xy \OT1/cmr/m/n/10.53937 +
+ 16\OML/cmm/m/it/10.53937 xz \OT1/cmr/m/n/10.53937 + 24\OML/cmm/m/it/10.53937 y
+z \OT1/cmr/m/n/10.53937 + 20\OML/cmm/m/it/10.53937 x \OT1/cmr/m/n/10.53937 + 30
+\OML/cmm/m/it/10.53937 y \OT1/cmr/m/n/10.53937 + 40\OML/cmm/m/it/10.53937 z \OT
+1/cmr/m/n/10.53937 + 25 = 0
+ []
+
+[39]
+Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text;!
+ [40]
 No file main.bbl.
-[38] (./main.aux) ) 
+[41] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  27357 strings out of 494857
  611238 string characters out of 6176224
- 650236 words of memory out of 5000000
+ 650237 words of memory out of 5000000
  30884 multiletter control sequences out of 15000+600000
  543244 words of font info for 97 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,16n,68p,1058b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (38 pages).
+Output written on main.pdf (41 pages).
